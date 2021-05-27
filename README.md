@@ -586,7 +586,7 @@ EXAMPLE:
 
 You can create shared libraries using the `-shared `option, though in most cases you can use standard shared libraries.
 
-Kontain-specific shared libraries are located in `/opt/kontain/runtime` and `/opt/kontain/alpine-libs`, and they will be used as necessary.
+Kontain-specific shared libraries are located in `/opt/kontain/runtime` and `/opt/kontain/alpine-libs`, where they are picked up and used at runtime as needed.
 
 NOTE: To see if an executable is dynamically linked, you can use the `ldd` tool to display required shared libraries, if any, along with their location. 
 
