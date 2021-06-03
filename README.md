@@ -1,4 +1,3 @@
-placeholder text
 # About this repository
 Description here...
 
@@ -23,7 +22,7 @@ We recommend using the pre-configured Kontain Vagrant box [https://app.vagrantup
 ## Product Documentation
  [Kontain User Guide](https://github.com/kontainapp/km-releases) Provides information for developers to install Kontain and use it to run workloads. 
  
-Command line help: `/opt/kontain/bin/km --help`
+For command line help, type: `/opt/kontain/bin/km --help`
 
 [Debugging Kontain Unikernels](https://www.google.com/url?q=https://docs.google.com/document/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit?usp%3Dsharing&sa=D&source=editors&ust=1619070677677000&usg=AOvVaw3wDZDS-8ACFqu6ioKfKDj-) 
 
