@@ -25,9 +25,9 @@ For details, see the [Kontain User Guide](https://github.com/kreative-kat/ko_ug_
  
 For command line help, type: `/opt/kontain/bin/km --help`
 
-[Debugging Kontain Unikernels](https://www.google.com/url?q=https://docs.google.com/document/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit?usp%3Dsharing&sa=D&source=editors&ust=1619070677677000&usg=AOvVaw3wDZDS-8ACFqu6ioKfKDj-) 
+[Debugging Kontain Unikernels](https://www.google.com/url?q=https://docs.google.com/document/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit?usp%3Dsharing&sa=D&source=editors&ust=1619070677677000&usg=AOvVaw3wDZDS-8ACFqu6ioKfKDj-) Provides information for developers about how to debug a Kontain workload (unikernel) using standard debugging tools and practices.  
 
-[FAQs](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/FAQ.md)
+[FAQs](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/FAQ.md) Provides answers to common questions about Kontain.
 
 
 ## How to Find Support or File an Issue
