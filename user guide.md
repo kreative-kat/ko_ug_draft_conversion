@@ -38,7 +38,7 @@ Kontain is a way to run container workloads "secure, fast, and small - choose th
 
 The Kontain solution is actually an integration of two technologies: containers and unikernels.
 
-A _unikernel _is a single-address-space machine image that contains an application workload—the program you want to run in a container—combined with a minimal set of library functions which provide the OS services required to run the workload. 
+A _unikernel_ is a single-address-space machine image that contains an application workload—the program you want to run in a container—combined with a minimal set of library functions which provide the OS services required to run the workload. 
 
 Kontain provides a method for creating and running unikernels that are optimized for container use cases. Packaging this workload-optimized unikernel as an OCI-compliant container image yields what we call a _kontainer_.  
 
