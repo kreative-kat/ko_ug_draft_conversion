@@ -104,7 +104,7 @@ In this section, we’ll take a closer look at the Kontain system components and
 
 Figure 1. Kontain System Diagram
 
-Kontain’s implementation of a OCI Runtime compliant container interface is *‘`krun`’* (_based on ‘`crun`’ by RedHat), which is used to build and run an application as a Kontain unikernel in a nested VM. 
+Kontain’s implementation of a OCI Runtime compliant container interface is *`krun`* (based on RedHat `crun`), which is used to build and run an application as a Kontain unikernel in a nested VM. 
 
 
 
@@ -122,7 +122,7 @@ A Kontain unikernel can be created from any application, containerized or not:
 *   In many cases, Kontain can run unmodified Linux binaries as a unikernel (e.g., statically linked Go programs and applications linked for Alpine Linux). 
 *   Some application code may need to be re-linked with a Kontain runtime library so it can be run as a unikernel. 
 
-The _Kontain virtual machine Monitor _(KM) is a user-space application that interfaces with the hardware via system calls. KM initializes Kontain VM facilities, loads the _unikernel image_ into VM memory, and runs the workload inside the VM_._ This dedicated VM is ephemeral, existing only to support one instance of a _kontainer_.
+The _Kontain virtual machine Monitor_ (KM) is a user-space application that interfaces with the hardware via system calls. KM initializes Kontain VM facilities, loads the _unikernel image_ into VM memory, and runs the workload inside the VM. This dedicated VM is ephemeral, existing only to support one instance of a _kontainer_.
 
 The _Kontain VM_ provides hardware resources (CPU, memory) to the application. Kontain VMs interact with the outside world via a limited set of hypercalls to the Kontain Monitor, which manages requests from the application as it runs.
 
@@ -131,9 +131,9 @@ A Kontain VM is optimized to provide the workload with just the features it need
 
 ### How Kontain Handles Syscalls {#how-kontain-handles-syscalls}
 
-System calls are handled differently depending on how the Kontain unikernel is built. When running an unmodified Linux executable as a unikernel, Kontain will automatically use support that has been preloaded into the Kontain VM. This code performs a translation step, converting _syscalls _from the app to _hypercalls _that the Kontain VM can handle.
+System calls are handled differently depending on how the Kontain unikernel is built. When running an unmodified Linux executable as a unikernel, Kontain will automatically use support that has been preloaded into the Kontain VM. This code performs a translation step, converting _syscalls_ from the app to _hypercalls_ that the Kontain VM can handle.
 
-The _Kontain runtime library_ does not use syscalls to request services as regular libraries—including _musl _and _glibc_—do. Instead, it uses ‘out’ command-based _hypercalls_. An application that has been linked with the provided Kontain runtime libraries will issue a _hypercall _directly to Kontain Monitor. 
+The _Kontain runtime library_ does not use syscalls to request services as regular libraries—including _musl_ and _glibc_—do. Instead, it uses ‘out’ command-based _hypercalls_. An application that has been linked with the provided Kontain runtime libraries will issue a _hypercall_ directly to Kontain Monitor. 
 
 
 ### How Kontain Works with Docker {#how-kontain-works-with-docker}
@@ -142,11 +142,11 @@ NOTE: Although this section refers to using Kontain with Docker, Kontain works e
 
 You can use Docker to build and run a Kontain workload, as a unikernel, in a ‘kontainer.’ 
 
-A ‘kontainer’ is a Docker (OCI) container with a Kontain unikernel in the container image, and Kontain runtime (krun) available at runtime. As in a regular Docker workflow, a kontainer image is created using the `docker build` command. The standard executable in the container image is replaced with a Kontain unikernel. 
+A ‘kontainer’ is a Docker (OCI) container with a Kontain unikernel in the container image, and Kontain runtime (`krun`) available at runtime. As in a regular Docker workflow, a kontainer image is created using the `docker build` command. The standard executable in the container image is replaced with a Kontain unikernel. 
 
 A kontainer is run by passing Kontain runtime (`krun`) to `docker run.` 
 
-To run a kontainer, Docker must be configured to use krun. See [Runtime Config for Docker](#runtime-config-for-docker) for instructions.
+To run a kontainer, Docker must be configured to use `krun`. See [Runtime Config for Docker](#runtime-config-for-docker) for instructions.
 
 You can also run a Kontain workload as a Docker container with default Docker runtime. This use model still provides the benefits of running a workload as a unikernel in a VM, but Docker overhead is still present. More importantly, `docker exec` and any subprocesses present will evade wrapping in a VM; instead, these will be executed outside of Kontain. Therefore, while this method can be useful for testing, it should not be used in production. 
 
@@ -211,7 +211,7 @@ Prerequisite: Both [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https:
 
 <span style="text-decoration:underline;">Known Issue</span>: At installation, kernel module KKM is tightly coupled with the host kernel version. If the host kernel is upgraded, the new kernel will not have KKM, and Kontain will not work. For now, we recommend against upgrading the kernel.
 
-**What’s Next? **
+**What’s Next?**
 
 To try Kontain with a simple compiled code example, go to [Tutorial #1, Part A: Create and Run a Unikernel](#tutorial-#1-part-a-create-and-run-a-unikernel)` `
 
@@ -235,7 +235,7 @@ You will be running Kontain Monitor from the command line. For KM command line h
 
 NOTE: The C program used here is provided in the `km-releases/examples` directory.
 
-**Procedure **
+**Procedure**
 
 
 
@@ -308,7 +308,7 @@ In this example, you’ll build a Docker container with a Kontain unikernel (kon
 *   Assumes the files created in Tutorial #1, Part A are available; the same `file` and `dir` vars are used here. 
 *   Assumes pre-configured Kontain Vagrant box (or Kontain installed with access to `/dev/kvm` or `/dev/kkm` and Docker configured) 
 
-**Procedure **
+**Procedure**
 
 
 
@@ -335,7 +335,7 @@ docker run --rm --runtime=krun kontain-hello
 ```
 
 
-**What’s Next? **
+**What’s Next?**
 
 If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application).” 
 
@@ -418,7 +418,7 @@ docker build -t example/kontain-java .
 ```
 
 
-**What’s Next? **
+**What’s Next?**
 
 If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application).”
 
@@ -434,7 +434,7 @@ NOTE: The example scripts referenced in this section can be found in the /`opt/k
 
 ### Overview {#overview}
 
-For compiled language applications, you first need to create a unikernel from your code. You can run a unikernel in KM, without a container, or you can package it as a _kontainer _and run it in Docker, as shown in [Tutorial #1, Part B](#tutorial-#1-part-b-build-and-run-a-kontainer-with-docker). 
+For compiled language applications, you first need to create a unikernel from your code. You can run a unikernel in KM, without a container, or you can package it as a _kontainer_ and run it in Docker, as shown in [Tutorial #1, Part B](#tutorial-#1-part-b-build-and-run-a-kontainer-with-docker). 
 
 To create a Kontain unikernel from a compiled language application, you can: 
 
@@ -448,7 +448,7 @@ To create a Kontain unikernel from a compiled language application, you can:
 
 ### Linking Object Files into a Kontain Runtime-Based Executable {#linking-object-files-into-a-kontain-runtime-based-executable}
 
-C and  C++ programs can be _converted _to a unikernel by relinking your code or object files with the Kontain runtime library. 
+C and  C++ programs can be _converted_ to a unikernel by relinking your code or object files with the Kontain runtime library. 
 
 Kontain provides convenience wrappers `kontain-gcc` and `kontain-g++`. These are drop-in replacements that help to simplify the build by handling link phase flags. The `kontain-gcc` (`kontain-g++`) command produces a statically linked unikernel that contains all of the code needed for the workload to run. 
 
@@ -620,7 +620,7 @@ CGO_ENABLED=0 go build -ldflags '-T 0x201000 -extldflags "-no-pie -static -Wl,--
 ```
 
 
-**“Hello World” Go Script **
+**“Hello World” Go Script**
 
 
 ```
@@ -1218,7 +1218,7 @@ sudo systemctl reload-or-restart docker.service
 
 
 
-3. Test your Docker configuration. In this example, we’ll use `krun `to run a Python kontainer:
+3. Test your Docker configuration. In this example, we’ll use `krun` to run a Python kontainer:
 
 
 ```
@@ -1240,9 +1240,9 @@ posix.uname_result(sysname='kontain-runtime', nodename='ddef05d46147', release='
 
 Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See “[Runtime Config for Docke](#runtime-config-for-docker)r”).
 
-When you use Kontain runtime, `docker exec `and all subprocesses are automatically wrapped in dedicated Kontain VMs (one VM per process). 
+When you use Kontain runtime, `docker exec` and all subprocesses are automatically wrapped in dedicated Kontain VMs (one VM per process). 
 
-You can also run a Kontain workload using the Docker default runtime, but `docker exec `and any subprocesses will circumvent Kontain encapsulation.
+You can also run a Kontain workload using the Docker default runtime, but `docker exec` and any subprocesses will circumvent Kontain encapsulation.
 
 
 ```
@@ -1394,8 +1394,8 @@ GDB follow-fork-mode cannot be used to follow the child process after a fork. Th
 
 
 
-*   If the parent waits for GDB `attach `before starting up, so will the child.
-*   If the parent listens for a GDB client `attach `in the background, the child will do the same.
+*   If the parent waits for GDB `attach` before starting up, so will the child.
+*   If the parent listens for a GDB client `attach` in the background, the child will do the same.
 *   Each forked workload will be listening on a new network port.
     *   The new network port is the next free port that is higher than the parent's GDBnetwork port.
     *   If most ports are in use, port number will wrap at 64*1024.
@@ -1428,7 +1428,7 @@ gdb -q --ex="target remote localhost:2160"
 ```
 
 
-When a workload process exec()'s, the GDB `catch exec` command will allow the GDB client to gain control after the `exec `call successfully completes.
+When a workload process exec()'s, the GDB `catch exec` command will allow the GDB client to gain control after the `exec` call successfully completes.
 
 For a detailed guide to Kontain debugging, refer to this guide: [Debugging Kontain Unikernels](https://docs.google.com/document/u/0/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit). 
 
