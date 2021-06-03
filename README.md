@@ -34,3 +34,12 @@ For command line help, type: `/opt/kontain/bin/km --help`
 
 Contact <community@kontain.app> 
 
+## Contributing
+These binaries and these instructions are open source because we want to interact with our community. If you're interested in working on Kontain or using it in your stack, please let us know! We would be more than happy to share the private code.
+
+We also accept PRs and issues here. If making a large PR, please check with us first by opening an issue. Our goal is to eventually open source everything.
+
+## Licensing
+Copyright © 2021 Kontain Inc. All rights reserved.
+
+By downloading or otherwise accessing the Kontain Beta Materials, you hereby agree to all of the terms and conditions of Kontain’s Beta License available at https://raw.githubusercontent.com/kontainapp/km-releases/master/LICENSE.
