@@ -115,7 +115,7 @@ https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/images/kontain%
 
 ![alt_text](images/image1.jpg "image_tooltip")
 ![GitHub Logo](/images/kontain system diagram (26May).jpg)
-Format: ![Alt Text](url)
+Format: ![Alt Text](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/images/kontain%20system%20diagram%20(26May).jpg)
 
 
 Figure 1. Kontain System Diagram
