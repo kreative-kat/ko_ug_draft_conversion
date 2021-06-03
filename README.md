@@ -16,7 +16,7 @@ Kontain runs on Linux hosts that meet these minimum requirements:
     *   Kontain Kernel Module (KKM) (included in the Kontain release) 
 
 ## Installing Kontain
-We recommend using the pre-configured Kontain Vagrant box [https://app.vagrantup.com/kontain/boxes/beta2-kkm](https://app.vagrantup.com/kontain/boxes/beta2-kkm). 
+We recommend using the pre-configured [Kontain Vagrant box](https://app.vagrantup.com/kontain/boxes/beta2-kkm). 
 For details, see the [Kontain User Guide](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md). 
 
 
