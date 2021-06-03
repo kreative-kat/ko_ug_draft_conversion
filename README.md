@@ -20,7 +20,7 @@ We recommend using the pre-configured Kontain Vagrant box [https://app.vagrantup
 
 
 ## Product Documentation
- [Kontain User Guide](https://github.com/kontainapp/km-releases) Provides information for developers to install Kontain and use it to run workloads. 
+ [Kontain User Guide](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md) Provides information for developers to install Kontain and use it to run workloads. 
  
 For command line help, type: `/opt/kontain/bin/km --help`
 
