@@ -1,5 +1,5 @@
 # About this repository
-Description here...
+*Brief Description...*
 
 ## Release Notes 
 *New/Changed Features, bug fixes, other important, release-specific info. NOTE: This could be a link to a separate document, which might be preferable if you want to keep this doc short!*
