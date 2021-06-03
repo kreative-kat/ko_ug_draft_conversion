@@ -1,8 +1,8 @@
 # About this repository
 Description here...
 
-## Release Notes (link to separate doc?)
-What's New - Features, bug fixes
+## Release Notes 
+New/Changed Features, bug fixes, other important, release-specific info. NOTE: This could be a link to a separate document, which might be preferable if you want to keep this doc short!
 
 ## Supported Linux Platforms
 
@@ -37,7 +37,7 @@ Contact <community@kontain.app>
 ## Contributing
 These binaries and these instructions are open source because we want to interact with our community. If you're interested in working on Kontain or using it in your stack, please let us know! We would be more than happy to share the private code.
 
-We also accept PRs and issues here. If making a large PR, please check with us first by opening an issue. Our goal is to eventually open source everything.
+We also accept PRs and issues here. (LINK?) If making a large PR, please check with us first by opening an issue. Our goal is to eventually open source everything.
 
 ## Licensing
 Copyright © 2021 Kontain Inc. All rights reserved.
