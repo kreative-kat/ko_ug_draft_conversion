@@ -1,5 +1,9 @@
 # About this repository
-*Brief Description...*
+
+This is a public repository for Kontain binary releases. Kontain code is open source...
+
+Kontain is currently in beta. Kontain release includes...
+*  Code examples: https://github.com/kontainapp/km-releases/tree/master/examples
 
 ## Release Notes 
 *New/Changed Features, bug fixes, other important, release-specific info. NOTE: This could be a link to a separate document, which might be preferable if you want to keep this doc short!*
