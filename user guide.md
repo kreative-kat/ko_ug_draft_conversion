@@ -104,7 +104,7 @@ In this section, we’ll take a closer look at the Kontain system components and
 
 Figure 1. Kontain System Diagram
 
-Kontain’s implementation of a OCI Runtime compliant container interface is _krun (_based on ‘`crun`’ by RedHat), which is used to build and run an application as a Kontain unikernel in a nested VM. 
+Kontain’s implementation of a OCI Runtime compliant container interface is *‘`krun`’* (_based on ‘`crun`’ by RedHat), which is used to build and run an application as a Kontain unikernel in a nested VM. 
 
 
 
