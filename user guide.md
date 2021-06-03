@@ -114,6 +114,8 @@ In this section, we’ll take a closer look at the Kontain system components and
 
 
 ![alt_text](images/image1.jpg "image_tooltip")
+![GitHub Logo](/images/kontain system diagram (26May).jpg)
+Format: ![Alt Text](url)
 
 
 Figure 1. Kontain System Diagram
