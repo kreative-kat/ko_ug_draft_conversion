@@ -108,7 +108,7 @@ In short, KKM enables nested virtualization wherever you can install a kernel mo
 
 In this section, we’ll take a closer look at the Kontain system components and how they work together to run workloads. 
 
-
+https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/images/kontain%20system%20diagram%20(26May).jpg
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
