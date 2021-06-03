@@ -108,13 +108,7 @@ In short, KKM enables nested virtualization wherever you can install a kernel mo
 
 In this section, we’ll take a closer look at the Kontain system components and how they work together to run workloads. 
 
-
-
-
-![alt_text](images/image1.jpg "image_tooltip")
-![GitHub Logo](/images/kontain system diagram (26May).jpg)
 ![System Diagram](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/images/kontain%20system%20diagram%20(26May).jpg)
-
 
 Figure 1. Kontain System Diagram
 
