@@ -1,7 +1,7 @@
 
 
 # Known Issues and Limitations 
-
+This represents a select set of current known issues. For a complete list, refer to the "Known Issues" Milestone in the kontainapp/km repo. 
 
 ## Language systems and libraries
 
