@@ -20,9 +20,15 @@ Kontain runs on Linux hosts that meet these minimum requirements:
     *   Kontain Kernel Module (KKM) (included in the Kontain release) 
 
 ## Installing Kontain
-We recommend using the pre-configured [Kontain Vagrant box](https://app.vagrantup.com/kontain/boxes/beta2-kkm). 
-For details, see the [Kontain User Guide](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md). 
+For a quick and easy way to start exploring Kontain, we recommend using the pre-configured [Kontain Ubuntu VM available from Vagrant Cloud](https://app.vagrantup.com/kontain/boxes/beta2-kkm). The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation:
 
+*   Ubuntu 20.10 
+*   Kontain pre-installed 
+*   KKM (Kontain kernel module) to support nested virtualization
+*   Docker pre-installed and configured for use with Kontain
+*   Compatible with Windows, Linux, and Mac OS
+
+Prerequisite: Both [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.VirtualBox.org/) must be installed on your host machine. 
 
 ## Product Documentation
  [Kontain User Guide](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md) Provides information for developers to install Kontain and use it to run workloads. 
