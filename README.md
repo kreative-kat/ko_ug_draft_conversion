@@ -8,7 +8,7 @@ Kontain is currently in beta. Kontain release includes...
 ## Release Notes 
 *New/Changed Features, bug fixes, known issues, and additional release-specific info. NOTE: This could be a link to a separate document, which might be preferable if you want to keep this doc short!*
 
-[Known Issues](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/Known%20Issues.md)
+*  [Known Issues](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/Known%20Issues.md)
 
 ## Supported Linux Platforms
 
