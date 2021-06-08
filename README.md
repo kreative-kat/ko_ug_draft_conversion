@@ -2,11 +2,21 @@
 
 This is a public repository for Kontain binary releases. Kontain code is open source...
 
+Kontain is a tool for running individual programs wrapped in unikernels, directly on dedicated, lightweight Kontain VMs. 
+
+A unikernel is a single-address-space machine image that contains an application workload—the program you want to run in a container—combined with a minimal set of library functions which provide the OS services required to run the workload. 
+
+Kontain requires no change to source or object files: a Kontain unikernel can be linked from unmodified application object files and libraries. Better still, in many cases Kontain can take an unmodified Linux binary and run it on a Kontain VM as a unikernel. 
+
+For interpreted and bytecode-interpreted languages (e.g. Java, Python), a unikernel language runtime is created, then the interpreted/bytecode language is run inside the unikernel.
+
 Kontain is currently in beta. Kontain release includes...
 *  Code examples: https://github.com/kontainapp/km-releases/tree/master/examples
+*  *additional content here*
+
 
 ## Release Notes 
-*New/Changed Features, bug fixes, known issues, and additional release-specific info. NOTE: This could be a link to a separate document, which might be preferable if you want to keep this doc short!*
+This is a placeholder for content such as: *New/Changed Features, bug fixes, known issues, and additional release-specific info.* 
 
 *  [Known Issues](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/Known%20Issues.md)
 
@@ -22,6 +32,8 @@ Kontain runs on Linux hosts that meet these minimum requirements:
     *   Kontain Kernel Module (KKM) (included in the Kontain release) 
 
 ## Installing Kontain
+Kontain can be installed directly on the host or in a VM. 
+
 For a quick and easy way to start exploring Kontain, we recommend using the pre-configured [Kontain Ubuntu VM available from Vagrant Cloud](https://app.vagrantup.com/kontain/boxes/beta2-kkm). The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation:
 
 *   Ubuntu 20.10 
