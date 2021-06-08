@@ -1531,3 +1531,12 @@ When a workload process exec()'s, the GDB `catch exec` command will allow the GD
 
 For a detailed guide to Kontain debugging, refer to this guide: [Debugging Kontain Unikernels](https://docs.google.com/document/u/0/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit). 
 
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+
+[Using Kontain with Your Compiled Language Application][1]
+[1]: https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application/ "Using Kontain with Your Compiled Language Application"
