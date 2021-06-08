@@ -623,7 +623,7 @@ CGO_ENABLED=0 go build -ldflags '-T 0x201000 -extldflags "-no-pie -static -Wl,--
 **“Hello World” Go Script**
 
 
-```
+```go
 #dir=$(mktemp -d)   # reuse dir from the prior example
 file=kontain-example-go
 cat <<EOF > $dir/$file.go
@@ -654,6 +654,7 @@ func main() {
     fmt.Printf("Sysname=%s\n", charsToString(utsname.Sysname[:]))
 }
 EOF
+
 ```
 
 
