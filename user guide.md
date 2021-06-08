@@ -1,25 +1,25 @@
 
 # Kontain User Guide {#kontain-user-guide}
 
-About This Document
+* About This Document
 
-Introduction to Kontain
+* Introduction to Kontain
 
-How Kontain Works
+   How Kontain Works
 
-Compatible with Existing Container Workflows
+   Compatible with Existing Container Workflows
 
-Linux Platform Portability
+   Linux Platform Portability
 
-Kontain in the Cloud
+   Kontain in the Cloud
 
-Do I Need KVM or KKM?
+   Do I Need KVM or KKM?
 
-Kontain System Overview
+* Kontain System Overview
 
-How Kontain Handles Syscalls
+   How Kontain Handles Syscalls
 
-How Kontain Works with Docker
+   How Kontain Works with Docker
 
 Additional Documentation and Support
 
