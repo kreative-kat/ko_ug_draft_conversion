@@ -33,7 +33,7 @@ Tutorial #1, Part B: Build and Run a Kontainer with Docker
 
 Tutorial #2: Build and Run a Java Kontainer
 
-Using Kontain with Your Compiled Language Application
+[Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application)
 
 Overview
 
@@ -521,7 +521,7 @@ docker build -t example/kontain-java .
 If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application).”
 
 
-## Using Kontain with Your Compiled Language Application {#using-kontain-with-your-compiled-language-application}
+## Using Kontain with Your Compiled Language Application <a name="using-kontain-with-your-compiled-language-application"></a>
 
 This section covers how to package your C, C++, or Go application to run in a Kontain VM, with or without using containers and container management tools such as Docker and RedHat Podman. 
 
@@ -1531,12 +1531,8 @@ When a workload process exec()'s, the GDB `catch exec` command will allow the GD
 
 For a detailed guide to Kontain debugging, refer to this guide: [Debugging Kontain Unikernels](https://docs.google.com/document/u/0/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit). 
 
-I get 10 times more traffic from [Google][1] than from
-[Yahoo][2] or [MSN][3].
 
-[1]: http://google.com/        "Google"
-[2]: http://search.yahoo.com/  "Yahoo Search"
-[3]: http://search.msn.com/    "MSN Search"
 
 [Using Kontain with Your Compiled Language Application][1]
 [1]: https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application/ "Using Kontain with Your Compiled Language Application"
+https://github.com/kontainapp/km-releases/blob/master/README.md#platform-support
