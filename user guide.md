@@ -1,6 +1,8 @@
 
 # Kontain User Guide {#kontain-user-guide}
 
+# Table of Contents
+
 * About This Document
 
 * Introduction to Kontain
@@ -27,9 +29,9 @@ Quick Start
 
 Getting Started: Using Kontain’s Pre-Configured Linux VM
 
-Tutorial #1, Part A: Create and Run a Unikernel
+[Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-create-and-run-a-unikernel)
 
-Tutorial #1, Part B: Build and Run a Kontainer with Docker
+[Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-kontainer-with-Docker)
 
 [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
@@ -318,7 +320,7 @@ To try Kontain with a simple interpreted language example, go to [Tutorial #2: B
 To try Kontain with your own application code, go to [Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application) or [Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application)
 
 
-### Tutorial #1, Part A: Create and Run a Unikernel {#tutorial-#1-part-a-create-and-run-a-unikernel}
+### Tutorial #1, Part A: Create and Run a Unikernel
 
 In this first tutorial, you’ll create a Kontain unikernel from a simple program written in C, then validate the result by running the unikernel in Kontain Monitor (KM). 
 
@@ -395,7 +397,7 @@ Note that `.km` is the ELF file with the Kontain unikernel.
 NOTE: Kontain provides `kontain-gcc` and `kontain-g++` as drop-in replacements to help simplify the build by handling link phase flags. The commands produce a statically linked unikernel that contains all of the code needed for the workload to run. You can run `kontain-gcc` as the final linking step in the build process, as shown above, or replace the regular link command in your makefile with `kontain-gcc`.
 
 
-### Tutorial #1, Part B: Build and Run a Kontainer with Docker  {#tutorial-#1-part-b-build-and-run-a-kontainer-with-docker}
+### Tutorial #1, Part B: Build and Run a Kontainer with Docker
 
 In this example, you’ll build a Docker container with a Kontain unikernel (kontainer), then run the workload with Kontain Monitor (KM). 
 
@@ -435,7 +437,7 @@ docker run --rm --runtime=krun kontain-hello
 
 **What’s Next?**
 
-If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application).” 
+If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application).” 
 
 
 ### Tutorial #2: Build and Run a Java Kontainer
@@ -518,7 +520,7 @@ docker build -t example/kontain-java .
 
 **What’s Next?**
 
-If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application).”
+If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application).”
 
 
 ## Using Kontain with Your Compiled Language Application <a name="using-kontain-with-your-compiled-language-application"></a>
@@ -816,7 +818,7 @@ machine         = kontain_VM
 
 
 
-## Using Kontain with Your Interpreted Language Application {#using-kontain-with-your-interpreted-language-application}
+## Using Kontain with Your Interpreted Language Application 
 
 This section covers how to package your Python, Java, or Node.js application to run in a Kontain VM, with or without using containers and container management tools such as Docker or RedHat Podman. 
 
