@@ -1,5 +1,5 @@
 
-# Kontain User Guide {#kontain-user-guide}
+# Kontain User Guide
 
 # Table of Contents
 
@@ -55,7 +55,7 @@
 
   * Building an Alpine Executable with Kontain GCC
 
-* Using Kontain with Your Interpreted Language Application
+* [Using Kontain with Your Interpreted Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application)
 
   * Overview
 
@@ -65,7 +65,7 @@
 
   * [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
-  * Using a Snapshot to Speed Startup (“Instastart” Feature)
+  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
 
   * Java API
 
@@ -77,9 +77,9 @@
 
   * Live Debugging from the Command Line
 
-  * Example: Debugging a Workload with KM GDB
+  * [Example: Debugging a Workload with KM GDB](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#Example-debugging-a-workload-with-km-gdb)
 
-  * Restarting a Unikernel Debuggee
+  * [Restarting a Unikernel Debuggee](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#restarting-a-unikernel-debuggee)
 
 * Appendix
 
@@ -1119,7 +1119,7 @@ Reading symbols from target:/home/paulp/ws/ws2/km/tests/hello_test.km...
 
 
 
-### Restarting a Unikernel Debuggee  {#restarting-a-unikernel-debuggee}
+### Restarting a Unikernel Debuggee
 
 Developers often need to restart a debugee program from the beginning while preserving the breakpoints, variables, and other status in the client. In GDB, this is done using the `run` command. When debugging with Kontain GDB, use the following procedure to achieve the same results:
 
@@ -1131,7 +1131,7 @@ Developers often need to restart a debugee program from the beginning while pres
 4. Run the debuggee using the `continue `command. 
 
 
-## Appendix {#appendix}
+## Appendix
 
 
 ### Using a Kontain AMI on AWS
