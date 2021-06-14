@@ -59,11 +59,11 @@ Using Kontain with Your Interpreted Language Application
 
 Overview
 
-Using Kontain Python
+[Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
 
 Using Kontain Node.js (javascript)
 
-Using Kontain Java
+[Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
 Using a Snapshot to Speed Startup (“Instastart” Feature)
 
@@ -83,7 +83,7 @@ Restarting a Unikernel Debuggee
 
 Appendix
 
-Using a Kontain AMI on AWS
+[Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
 
 Installing Kontain on Your Own Linux VM
 
@@ -849,12 +849,12 @@ For examples, see:
 
 
 
-*   [Using Kontain Python](#using-kontain-python)
-*   [Using Kontain Node.js](#using-kontain-node-js-javascript)
-*   [Using Kontain Java](#using-kontain-java)
+*   [Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
+*   [Using Kontain Node.js](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-node-js-javascript)
+*   [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
 
-### Using Kontain Python {#using-kontain-python}
+### Using Kontain Python
 
 These examples demonstrate how to run a simple Python application using a pre-built Kontain unikernel that has been packaged as a kontainer. This kontainer is available on Docker Hub.
 
@@ -905,7 +905,7 @@ cd ..
 Note that `./usr/local/bin/python` is a symlink to` /opt/kontain/bin/km`. KM (Kontain Monitor) will find the actual unikernel to run by adding `.km` to its own name, so the actual binary running in Kontain VM will be a Python unikernel from `./usr/local/bin/python.km`.
 
 
-### Using Kontain Node.js (javascript) {#using-kontain-node-js-javascript}
+### Using Kontain Node.js (javascript)
 
 EXAMPLE 1: <span style="text-decoration:underline;">Using Docker to run a small http server from <code>node/examples</code></span>
 
@@ -938,7 +938,7 @@ cd ..
 
 
 
-### Using Kontain Java {#using-kontain-java}
+### Using Kontain Java
 
 EXAMPLE 1: <span style="text-decoration:underline;">Using Docker to run a simple “Hello World” Java program</span>
 
@@ -1134,7 +1134,7 @@ Developers often need to restart a debugee program from the beginning while pres
 ## Appendix {#appendix}
 
 
-### Using a Kontain AMI on AWS {#using-a-kontain-ami-on-aws}
+### Using a Kontain AMI on AWS
 
 For AWS non-metal installations, Kontain provides an AWS AMI with Ubuntu 20.10, Kontain, and Docker pre-installed. A KKM module (included) enables virtualization.
 
