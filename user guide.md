@@ -73,9 +73,9 @@
 
 * [Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
 
-  * Analyzing Core Dumps
+  * [Analyzing Core Dumps](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#analyzing-core-dumps)
 
-  * Live Debugging from the Command Line
+  * [Live Debugging from the Command Line](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#live-debugging-from-the-command-line)
 
   * [Example: Debugging a Workload with KM GDB](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#Example-debugging-a-workload-with-km-gdb)
 
@@ -1047,7 +1047,7 @@ To use a different file name, use this flag:
 `--coredump=file` 
 
 
-### Live Debugging from the Command Line {#live-debugging-from-the-command-line}
+### Live Debugging from the Command Line
 
 To attach a standard GDB client to a Kontain workload, you need to instruct the Kontain Monitor GDB server to listen for a client connection. 
 
@@ -1074,7 +1074,7 @@ This instruction can be used at each debugging session, or you can add it to the
 <span style="text-decoration:underline;">Known issue</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads](#debugging-child-processes-and-exec-workloads).”
 
 
-### Example: Debugging a Workload with KM GDB {#example-debugging-a-workload-with-km-gdb}
+### Example: Debugging a Workload with KM GDB
 
 
 
