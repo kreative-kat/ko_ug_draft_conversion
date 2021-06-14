@@ -101,7 +101,7 @@ This document provides information for developers to install Kontain and use it 
 Reference [Kontain release](https://github.com/kontainapp/km-releases): v0.1-beta2
 
 
-## Introduction to Kontain [Introduction to Kontain][2]#introduction-to-kontain}
+## Introduction to Kontain
 
 Containerization tools and processes provide the foundation for deploying today’s cloud-native software applications, but containers are still far from perfect for many modern workloads. 
 
