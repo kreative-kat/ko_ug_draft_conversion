@@ -31,7 +31,7 @@ Getting Started: Using Kontain’s Pre-Configured Linux VM
 
 [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-create-and-run-a-unikernel)
 
-[Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-kontainer-with-Docker)
+[Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
 
 [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
