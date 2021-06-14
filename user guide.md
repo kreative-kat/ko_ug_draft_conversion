@@ -85,11 +85,11 @@ Appendix
 
 [Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
 
-Installing Kontain on Your Own Linux VM
+[Installing Kontain on Your Own Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
 
-Prerequisites
+[Prerequisites](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#prerequisites
 
-Running the Kontain Install Script
+[Running the Kontain Install Script](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-the-kontain-install-script)
 
 [Installing a Non-default Version of Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-a-non-default-version-of-kontain)
 
@@ -1175,7 +1175,7 @@ step 1:
 The Docker version installed with the Kontain AMI needs to be configured to work with Kontain. See “[Runtime Config for Docker](#runtime-config-for-docker).”
 
 
-### Installing Kontain on Your Own Linux VM {#installing-kontain-on-your-own-linux-vm}
+### Installing Kontain on Your Own Linux VM
 
 Kontain provides a script that downloads and installs Kontain files onto your host Linux VM. This script, `kontain-install.sh`, validates the Kontain installation by executing a simple unikernel in a Kontain VM. 
 
@@ -1194,7 +1194,7 @@ To check your kernel version, use: `uname -a`
 *   Ubuntu 20 or Fedora 32 (recommended)
 2. Virtualization must be enabled on the installation kernel: 
 
-    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm?)) 
+    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)) 
 
 
     To check for the presence of KVM: 
