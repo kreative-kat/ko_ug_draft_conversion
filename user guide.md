@@ -31,9 +31,9 @@ Tutorial #1, Part A: Create and Run a Unikernel
 
 Tutorial #1, Part B: Build and Run a Kontainer with Docker
 
-Tutorial #2: Build and Run a Java Kontainer
+[Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
-[Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application)
+[Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
 
 Overview
 
