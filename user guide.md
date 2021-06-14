@@ -1,7 +1,7 @@
 
 # Kontain User Guide
 
-# Table of Contents
+## Table of Contents
 
 * About This Document
 
