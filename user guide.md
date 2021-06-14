@@ -850,7 +850,7 @@ For examples, see:
 
 
 *   [Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
-*   [Using Kontain Node.js](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-node-js-javascript)
+*   [Using Kontain Node.js (javascript)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript)
 *   [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
 
