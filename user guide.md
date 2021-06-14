@@ -67,10 +67,6 @@
 
   * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-instastart-feature)
 
-  * Java API
-
-  * Python API
-
 * [Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
 
   * [Analyzing Core Dumps](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#analyzing-core-dumps)
@@ -87,14 +83,6 @@
 
   * [Installing Kontain on Your Own Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
 
-  * [Prerequisites](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#prerequisites
-
-  * [Running the Kontain Install Script](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-the-kontain-install-script)
-
-  * [Installing a Non-default Version of Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-a-non-default-version-of-kontain)
-
-  * [Validating the Installation](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#validating-the-installation)
-
   * [Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker)
 
   * [Using the Docker Runtime](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime)
@@ -102,10 +90,6 @@
   * [Using Kontain with Azure](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure)
 
   * [Using Kontain with Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes)
-
-  * [Installing the kontaind DaemonSet](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-the-kontaind-DaemonSet)
-
-  * [Invoking Kontain from Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-kontain-from-kubernetes)
 
   * [Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
 
