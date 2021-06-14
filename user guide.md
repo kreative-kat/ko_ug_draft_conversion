@@ -5,7 +5,7 @@
 
 * [About This Document][1]
 
-* Introduction to Kontain
+* [Introduction to Kontain][2]
 
   * How Kontain Works
 
@@ -101,7 +101,7 @@ This document provides information for developers to install Kontain and use it 
 Reference [Kontain release](https://github.com/kontainapp/km-releases): v0.1-beta2
 
 
-## Introduction to Kontain {#introduction-to-kontain}
+## Introduction to Kontain [Introduction to Kontain][2]#introduction-to-kontain}
 
 Containerization tools and processes provide the foundation for deploying today’s cloud-native software applications, but containers are still far from perfect for many modern workloads. 
 
@@ -1519,3 +1519,4 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 
 
 [1]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#about-this-document> 
+[2]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#introduction-to-kontain>
