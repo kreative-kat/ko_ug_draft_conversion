@@ -1339,7 +1339,7 @@ posix.uname_result(sysname='kontain-runtime', nodename='ddef05d46147', release='
 
 ### Using the Docker Runtime
 
-Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See “[Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker)”).
+Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See “[Runtime Config for Docker"](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker).
 
 When you use Kontain runtime, `docker exec` and all subprocesses are automatically wrapped in dedicated Kontain VMs (one VM per process). 
 
