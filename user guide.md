@@ -65,7 +65,7 @@
 
   * [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
-  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
+  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-“instastart”-feature)
 
   * Java API
 
@@ -970,7 +970,7 @@ cd ..
 
 
 
-## Using a Snapshot to Speed Startup (“Instastart” Feature)  {#using-a-snapshot-to-speed-startup-“instastart”-feature}
+## Using a Snapshot to Speed Startup (“Instastart” Feature)
 
 To speed startup time of an application with a long warm-up cycle, Kontain provides “Instastart”—a mechanism to create a ‘snapshot’ unikernel. For example, the startup time for Springboot applications can be shortened from multiple seconds to just tens of milliseconds. This level of improvement enables extremely fast scale-up from zero, as well as scale-down to zero.
 
@@ -988,7 +988,7 @@ A KM snapshot file is an ELF format core file with KM-specific records in the NO
 NOTE: One snapshot per VM is supported; coordination of snapshots for multi-process workloads is not currently supported.
 
 
-### Java API {#java-api}
+### Java API
 
 
 ```
@@ -999,7 +999,7 @@ new Snapshot().take("test_snap", "Testing snapshot");
 
 
 
-### Python API {#python-api}
+### Python API
 
 From `kontain import snapshots`:
 
@@ -1026,7 +1026,7 @@ For information about the Kontain commands referenced in this section, go to:  \
 `/opt/kontain/bin/km --help`
 
 
-### Analyzing Core Dumps {#analyzing-core-dumps}
+### Analyzing Core Dumps
 
 A workload running as a unikernel in Kontain VM will generate a core dump in the same case(s) it would while running on Linux. 
 
@@ -1184,7 +1184,7 @@ The script untars the Kontain release contents into `/opt/kontain`.
 NOTE: This installation procedure assumes root access on the host machine. 
 
 
-#### Prerequisites {#prerequisites}
+#### Prerequisites
 
 
 
