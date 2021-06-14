@@ -5,7 +5,7 @@
 
 * [About This Document][1]
 
-* [Introduction to Kontain][2]
+* [Introduction to Kontain][1]
 
   * How Kontain Works
 
