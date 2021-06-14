@@ -330,7 +330,7 @@ You will be running Kontain Monitor from the command line. For KM command line h
 
 
 
-*   Assumes pre-configured Kontain Vagrant box (or Kontain installed with access to /dev/kvm or /dev/kkm) See [”Getting Started: Using Kontain’s Pre-Configured Linux VM”](#getting-started-using-kontain’s-pre-configured-linux-vm)  
+*   Assumes pre-configured Kontain Vagrant box (or Kontain installed with access to /dev/kvm or /dev/kkm) See [”Getting Started: Using Kontain’s Pre-Configured Linux VM”](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
 *   Requires GCC and `kontain-gcc` to be installed. 
 
 NOTE: The C program used here is provided in the `km-releases/examples` directory.
