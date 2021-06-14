@@ -19,23 +19,23 @@
 
 * Kontain System Overview
 
-   How Kontain Handles Syscalls
+  * How Kontain Handles Syscalls
 
-   How Kontain Works with Docker
+  * How Kontain Works with Docker
 
-Additional Documentation and Support
+  * Additional Documentation and Support
 
-[Quick Start](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start)
+* [Quick Start](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start)
 
-[Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
+* [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
 
-[Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
+* [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
 
-[Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
+* [Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
 
-[Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
+* [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
-[Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
+* [Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
 
 Overview
 
