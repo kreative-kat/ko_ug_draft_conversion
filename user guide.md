@@ -81,7 +81,7 @@
 
   * [Restarting a Unikernel Debuggee](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#restarting-a-unikernel-debuggee)
 
-* Appendix
+* [Appendix](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#appendix)
 
   * [Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
 
