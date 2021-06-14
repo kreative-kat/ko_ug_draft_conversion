@@ -438,7 +438,7 @@ docker run --rm --runtime=krun kontain-hello
 If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application).” 
 
 
-### Tutorial #2: Build and Run a Java Kontainer {#tutorial-#2-build-and-run-a-java-kontainer}
+### Tutorial #2: Build and Run a Java Kontainer
 
 In this demo, you’ll use Docker to build and package Java application files with the Kontain Java runtime environment, then run the workload as a unikernel using Docker run with the `--runtime krun` flag. Kontain runtime provides access to the virtualization device and to pre-installed libraries.
 
