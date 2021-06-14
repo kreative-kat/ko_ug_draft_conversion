@@ -27,7 +27,7 @@ Additional Documentation and Support
 
 [Quick Start](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start)
 
-Getting Started: Using Kontain’s Pre-Configured Linux VM
+[Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
 
 [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
 
@@ -274,7 +274,7 @@ What’s in this section:
 *   Tutorial #2: Package Kontain Java with a sample Java application into a kontainer and run as a Docker container. 
 
 
-### Getting Started: Using Kontain’s Pre-Configured Linux VM {#getting-started-using-kontain’s-pre-configured-linux-vm}
+### Getting Started: Using Kontain’s Pre-Configured Linux VM
 
 For a quick and easy way to start exploring Kontain, we recommend that you run the prepared Ubuntu VM available from Vagrant Cloud. The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation: 
 
