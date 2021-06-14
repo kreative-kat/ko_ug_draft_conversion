@@ -15,7 +15,7 @@
 
    Kontain in the Cloud
 
-**  [Do I Need KVM or KKM?](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)
+[Do I Need KVM or KKM?](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)
 
 * Kontain System Overview
 
