@@ -65,7 +65,7 @@
 
   * [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
-  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-“instastart”-feature)
+  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-instastart-feature)
 
   * Java API
 
