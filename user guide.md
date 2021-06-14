@@ -71,7 +71,7 @@ Java API
 
 Python API
 
-[Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads--debugging-kontain-workloads)
+[Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
 
 Analyzing Core Dumps
 
@@ -91,23 +91,23 @@ Prerequisites
 
 Running the Kontain Install Script
 
-Installing a Non-default Version of Kontain
+[Installing a Non-default Version of Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-a-non-default-version-of-kontain)
 
-Validating the Installation
+[Validating the Installation](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#validating-the-installation)
 
-Runtime Config for Docker
+[Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker)
 
-Using the Docker Runtime
+[Using the Docker Runtime](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime)
 
-Using Kontain with Azure
+[Using Kontain with Azure](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure)
 
-Using Kontain with Kubernetes
+[Using Kontain with Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes)
 
-Installing the kontaind DaemonSet
+[Installing the kontaind DaemonSet](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-the-kontaind-DaemonSet)
 
-Invoking Kontain from Kubernetes
+[Invoking Kontain from Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-kontain-from-kubernetes)
 
-Debugging Child Processes and exec Workloads
+[Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
 
 
 ## About This Document {#about-this-document}
@@ -1194,7 +1194,7 @@ To check your kernel version, use: `uname -a`
 *   Ubuntu 20 or Fedora 32 (recommended)
 2. Virtualization must be enabled on the installation kernel: 
 
-    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"](#do-i-need-kvm-or-kkm)) 
+    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"]((https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)) 
 
 
     To check for the presence of KVM: 
@@ -1223,7 +1223,7 @@ To check your kernel version, use: `uname -a`
 
 
 
-#### Running the Kontain Install Script {#running-the-kontain-install-script}
+#### Running the Kontain Install Script
 
 
 
@@ -1256,7 +1256,7 @@ git clone https://github.com/kontainapp/km-releases
 
 
 
-#### Installing a Non-default Version of Kontain {#installing-a-non-default-version-of-kontain}
+#### Installing a Non-default Version of Kontain
 
 The Kontain installation script will download and install the release version referenced in the <code>[default-release](https://github.com/kontainapp/km-releases/blob/master/default-release)</code> file in the Kontain repo. If you prefer to install a different release, you can pass the release name to the install script as the first argument. 
 
@@ -1270,16 +1270,16 @@ chmod a+x ./kontain-install.sh; ./kontain-install.sh v0.1-beta2-demo
 
 
 
-#### Validating the Installation {#validating-the-installation}
+#### Validating the Installation
 
 The installation script automatically executes a simple unikernel in a Kontain VM and prints "Hello world".
 
 **Next steps: **
 
-Be sure you have Docker installed and [configured to run with Kontain](#runtime-config-for-docker). 
+Be sure you have Docker installed and [configured to run with Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker). 
 
 
-### Runtime Config for Docker {#runtime-config-for-docker}
+### Runtime Config for Docker
 
 To use Kontain with Docker, you will need to have Docker installed and configured. 
 
@@ -1337,9 +1337,9 @@ posix.uname_result(sysname='kontain-runtime', nodename='ddef05d46147', release='
 
 
 
-### Using the Docker Runtime {#using-the-docker-runtime}
+### Using the Docker Runtime
 
-Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See “[Runtime Config for Docker](#runtime-config-for-docker)”).
+Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See “[Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker)”).
 
 When you use Kontain runtime, `docker exec` and all subprocesses are automatically wrapped in dedicated Kontain VMs (one VM per process). 
 
@@ -1370,7 +1370,7 @@ docker run -it --rm \
 NOTE: On platforms with KKM installed, use `--device /dev/kkm`
 
 
-### Using Kontain with Azure {#using-kontain-with-azure}
+### Using Kontain with Azure
 
 Azure supports nested virtualization for some instance sizes. For more information, see: [Nested Virtualization in Azure | Azure Blog and Updates](https://azure.microsoft.com/en-us/blog/nested-virtualization-in-azure/) 
 
@@ -1397,7 +1397,7 @@ az vm create --resource-group myResourceGroup --name kontain-demo --image Canoni
 
 
 
-### Using Kontain with Kubernetes  {#using-kontain-with-kubernetes}
+### Using Kontain with Kubernetes
 
 Kubernetes needs to be configured to run Kontain workloads in a Kontain VM. 
 
@@ -1406,7 +1406,7 @@ Kontain provides DaemonSet _kontaind_, which automates installation of Kontain M
 In addition, a kernel virtualization device (KVM or KKM) must be present on each node where a Kontain workload is scheduled. Kontain uses a[ third-party KVM device plug-in](https://github.com/kubevirt/kubernetes-device-plugins/blob/master/docs/README.kvm.md) to provide unprivileged pods access to `/dev/kvm`. This plug-in is automatically installed when kontaind is deployed on your Kubernetes cluster. 
 
 
-#### Installing the kontaind DaemonSet {#installing-the-kontaind-daemonset}
+#### Installing the kontaind DaemonSet
 
 To deploy the latest version of `kontaind`, run:
 
@@ -1435,7 +1435,7 @@ kontaind           1         1         1       1            1           <none>  
 
 
 
-#### Invoking Kontain from Kubernetes {#invoking-kontain-from-kubernetes}
+#### Invoking Kontain from Kubernetes
 
 <span style="text-decoration:underline;">Known Limitation</span>: Currently, a manual process is needed to instruct Kubernetes to invoke Kontain Monitor (KM) for your application. Note that we are working to automate the process of invoking  `krun` (Kontain’s OCI runtime) from Kubernetes. 
 
@@ -1489,7 +1489,7 @@ kubectl apply -f file.yaml
 
 
 
-### Debugging Child Processes and `exec` Workloads {#debugging-child-processes-and-exec-workloads}
+### Debugging Child Processes and `exec` Workloads
 
 GDB follow-fork-mode cannot be used to follow the child process after a fork. This is because, when a Kontain workload forks, it inherits debug settings from the forking process. For example,
 
