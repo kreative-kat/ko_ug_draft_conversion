@@ -7,7 +7,7 @@
 
 * Introduction to Kontain
 
- * How Kontain Works
+  * How Kontain Works
 
    Compatible with Existing Container Workflows
 
