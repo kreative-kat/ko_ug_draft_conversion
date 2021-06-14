@@ -5,17 +5,17 @@
 
 * [About This Document][1]
 
-* [Introduction to Kontain][1]
+* [Introduction to Kontain][2]
 
-  * How Kontain Works
+  * [How Kontain Works][3]
 
-  * Compatible with Existing Container Workflows
+  * [Compatible with Existing Container Workflows][4]
 
-  * Linux Platform Portability
+  * [Linux Platform Portability][5]
 
-  * Kontain in the Cloud
+  * [Kontain in the Cloud][6]
 
-  * [Do I Need KVM or KKM?](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)
+  * [Do I Need KVM or KKM?][7]
 
 * Kontain System Overview
 
@@ -1520,3 +1520,8 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 
 [1]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#about-this-document> 
 [2]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#introduction-to-kontain>
+[3]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-works>
+[4]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#compatible-with-existing-kontainer-workflows>
+[5]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#linux-platform-portability>
+[6]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-in-the-cloud>
+[7]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm>
