@@ -27,87 +27,87 @@
 
 * [Quick Start](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start)
 
-* [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
+  * [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
 
-* [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
+  * [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
 
-* [Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
+  * [Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
 
-* [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
+  * [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
 * [Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
 
-Overview
+  * Overview
 
-Linking Object Files into a Kontain Runtime-Based Executable
+  * Linking Object Files into a Kontain Runtime-Based Executable
 
-Creating a Unikernel from Dynamically Linked Code
+  * Creating a Unikernel from Dynamically Linked Code
 
-Build and Run a Dynamically Linked Unikernel
+  * Build and Run a Dynamically Linked Unikernel
 
-Creating Shared Libraries
+  * Creating Shared Libraries
 
-Using Docker with Dynamically Linked Unikernels
+  * Using Docker with Dynamically Linked Unikernels
 
-Running a Go Program as a Kontain Unikernel
+  * Running a Go Program as a Kontain Unikernel
 
-Running an Alpine Executable as a Kontain Unikernel
+  * Running an Alpine Executable as a Kontain Unikernel
 
-Building an Alpine Executable with Kontain GCC
+  * Building an Alpine Executable with Kontain GCC
 
-Using Kontain with Your Interpreted Language Application
+* Using Kontain with Your Interpreted Language Application
 
-Overview
+  * Overview
 
-[Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
+  * [Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
 
-[Using Kontain Node.js (javascript)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript)
+  * [Using Kontain Node.js (javascript)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript)
 
-[Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
+  * [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
 
-Using a Snapshot to Speed Startup (“Instastart” Feature)
+  * Using a Snapshot to Speed Startup (“Instastart” Feature)
 
-Java API
+  * Java API
 
-Python API
+  * Python API
 
-[Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
+* [Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
 
-Analyzing Core Dumps
+  * Analyzing Core Dumps
 
-Live Debugging from the Command Line
+  * Live Debugging from the Command Line
 
-Example: Debugging a Workload with KM GDB
+  * Example: Debugging a Workload with KM GDB
 
-Restarting a Unikernel Debuggee
+  * Restarting a Unikernel Debuggee
 
-Appendix
+* Appendix
 
-[Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
+  * [Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
 
-[Installing Kontain on Your Own Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
+  * [Installing Kontain on Your Own Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
 
-[Prerequisites](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#prerequisites
+  * [Prerequisites](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#prerequisites
 
-[Running the Kontain Install Script](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-the-kontain-install-script)
+  * [Running the Kontain Install Script](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-the-kontain-install-script)
 
-[Installing a Non-default Version of Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-a-non-default-version-of-kontain)
+  * [Installing a Non-default Version of Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-a-non-default-version-of-kontain)
 
-[Validating the Installation](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#validating-the-installation)
+  * [Validating the Installation](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#validating-the-installation)
 
-[Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker)
+  * [Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker)
 
-[Using the Docker Runtime](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime)
+  * [Using the Docker Runtime](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime)
 
-[Using Kontain with Azure](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure)
+  * [Using Kontain with Azure](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure)
 
-[Using Kontain with Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes)
+  * [Using Kontain with Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes)
 
-[Installing the kontaind DaemonSet](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-the-kontaind-DaemonSet)
+  * [Installing the kontaind DaemonSet](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-the-kontaind-DaemonSet)
 
-[Invoking Kontain from Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-kontain-from-kubernetes)
+  * [Invoking Kontain from Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#invoking-kontain-from-kubernetes)
 
-[Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
+  * [Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
 
 
 ## About This Document {#about-this-document}
