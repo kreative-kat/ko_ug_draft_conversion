@@ -71,7 +71,7 @@ Java API
 
 Python API
 
-Debugging Kontain Workloads
+[Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads--debugging-kontain-workloads)
 
 Analyzing Core Dumps
 
@@ -1012,7 +1012,7 @@ From `kontain import snapshots`:
 See `examples/python/README.md` for details on using the API in Python.
 
 
-## Debugging Kontain Workloads  {#debugging-kontain-workloads}
+## Debugging Kontain Workloads
 
 Kontain supports workload (unikernel) debugging via core dumps and GDB, as well as live debugging in GDB. 
 
