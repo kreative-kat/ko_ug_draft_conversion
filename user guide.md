@@ -94,7 +94,7 @@
   * [Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
 
 
-## About This Document {#about-this-document}
+## About This Document
 
 This document provides information for developers to install Kontain and use it to run workloads—either  using the sample code provided in the Kontain release repository or using their own applications. 
 
