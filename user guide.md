@@ -118,7 +118,7 @@ Kontain leverages existing container workflows, development tools, and processes
 Kontain is a way to run container workloads "secure, fast, and small - choose three."
 
 
-### How Kontain Works {#how-kontain-works}
+### How Kontain Works
 
 The Kontain solution is actually an integration of two technologies: containers and unikernels.
 
@@ -139,7 +139,7 @@ A Kontain VM is optimized to provide the workload with just the virtual hardware
 By virtue of its small size and targeted functionality, a Kontain VM provides a secure environment for the application running inside. As an example, workloads running in a Kontain VM would have been immune to the Meltdown security flaw, even on unpatched kernels and CPUs.
 
 
-### Compatible with Existing Container Workflows {#compatible-with-existing-container-workflows}
+### Compatible with Existing Container Workflows
 
 Kontain seamlessly plugs into Docker and Kubernetes runtime environments.
 
@@ -148,7 +148,7 @@ Kontain’s OCI-compliant image spec and runtime code ensure command-line and AP
 Kontain requires little or no change to existing CI/CD systems, orchestration configurations, and monitoring systems. 
 
 
-### Linux Platform Portability {#linux-platform-portability}
+### Linux Platform Portability
 
 Kontain runs on Linux hosts that meet these minimum requirements: 
 
@@ -162,7 +162,7 @@ Kontain runs on Linux hosts that meet these minimum requirements:
     *   Kontain Kernel Module (KKM) (included in the Kontain release) 
 
 
-### Kontain in the Cloud {#kontain-in-the-cloud}
+### Kontain in the Cloud
 
 Kontain runs on Azure, Google Cloud, and AWS instances supporting “nested virtualization”, i.e. with KVM enabled. Check with your cloud provider regarding nested virtualization support and configuration requirements. 
 
@@ -180,7 +180,7 @@ Certain hypervisors and cloud providers do not support nested virtualization on 
 In short, KKM enables nested virtualization wherever you can install a kernel module. And KKM can co-exist with KVM if both are installed on the same box. 
 
 
-## Kontain System Overview {#kontain-system-overview}
+## Kontain System Overview
 
 In this section, we’ll take a closer look at the Kontain system components and how they work together to run workloads. 
 
@@ -1525,3 +1525,4 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [5]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#linux-platform-portability>
 [6]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-in-the-cloud>
 [7]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm>
+[8]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-system-overview>
