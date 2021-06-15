@@ -1178,7 +1178,7 @@ To check your kernel version, use: `uname -a`
 *   Ubuntu 20 or Fedora 32 (recommended)
 2. Virtualization must be enabled on the installation kernel: 
 
-    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"]([7]) 
+    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"][7].) 
 
 
     To check for the presence of KVM: 
