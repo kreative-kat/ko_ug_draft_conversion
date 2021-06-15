@@ -27,21 +27,21 @@
 
 * [Quick Start][12]
 
-  * [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)[13]
+  * [Getting Started: Using Kontain’s Pre-Configured Linux VM] [13]
 
   * [Tutorial #1, Part A: Create and Run a Unikernel][14]
 
   * [Tutorial #1, Part B: Build and Run a Kontainer with Docker][15]
 
-  * [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
+  * [Tutorial #2: Build and Run a Java Kontainer][16]
 
-* [Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
+* [Using Kontain with Your Compiled Language Application] [17]
 
-  * Overview
+  * [Overview] [18]
 
-  * Linking Object Files into a Kontain Runtime-Based Executable
+  * [Linking Object Files into a Kontain Runtime-Based Executable] [19]
 
-  * Creating a Unikernel from Dynamically Linked Code
+  * [Creating a Unikernel from Dynamically Linked Code] [20]
 
   * Build and Run a Dynamically Linked Unikernel
 
@@ -1530,6 +1530,19 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [10]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-works-with-docker>
 [11]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#additional-documentation-and-support>
 [12]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start>
-[13]: (https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
+[13]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm>
 [14]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel>
 [15]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker>
+[16]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer>
+[17]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application>
+[18]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[19]:
+[20]:
+[21]:
+[22]:
+[23]:
+[24]:
+[25]:
+[26]:
+[27]:
+
