@@ -1260,7 +1260,7 @@ The installation script automatically executes a simple unikernel in a Kontain V
 
 **Next steps:**
 
-Be sure you have Docker installed and [configured to run with Kontain](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker). 
+Be sure you have Docker installed and [configured to run with Kontain][41]). 
 
 
 ### Runtime Config for Docker
