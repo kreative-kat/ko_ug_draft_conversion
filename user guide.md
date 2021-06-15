@@ -833,9 +833,9 @@ For examples, see:
 
 
 
-*   [Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
-*   [Using Kontain Node.js (javascript)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript)
-*   [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
+*   [Using Kontain Python][29]
+*   [Using Kontain Node.js][30]
+*   [Using Kontain Java][31]
 
 
 ### Using Kontain Python
