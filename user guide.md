@@ -808,7 +808,7 @@ This section covers how to package your Python, Java, or Node.js application to 
 
 For information about the Kontain commands used in this section: `/opt/kontain/bin/km --help`
 
-NOTE: The example scripts referenced in this section can be found in the /`opt/kontain/examples` directory. 
+NOTE: The example scripts referenced in this section can be found in the `/opt/kontain/examples` directory. 
 
 
 ### Overview
