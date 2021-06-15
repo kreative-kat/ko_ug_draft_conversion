@@ -43,19 +43,19 @@
 
   * [Creating a Unikernel from Dynamically Linked Code] [20]
 
-  * Build and Run a Dynamically Linked Unikernel
+  * [Build and Run a Dynamically Linked Unikernel] [21]
 
-  * Creating Shared Libraries
+  * [Creating Shared Libraries] [22]
 
-  * Using Docker with Dynamically Linked Unikernels
+  * [Using Docker with Dynamically Linked Unikernels] [23]
 
-  * Running a Go Program as a Kontain Unikernel
+  * [Running a Go Program as a Kontain Unikernel] [24]
 
-  * Running an Alpine Executable as a Kontain Unikernel
+  * [Running an Alpine Executable as a Kontain Unikernel] [25]
 
-  * Building an Alpine Executable with Kontain GCC
+  * [Building an Alpine Executable with Kontain GCC] [26]
 
-* [Using Kontain with Your Interpreted Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application)
+* [Using Kontain with Your Interpreted Language Application] [27]
 
   * Overview
 
@@ -1544,5 +1544,6 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [24]:
 [25]:
 [26]:
-[27]:
+[27]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application>
+
 
