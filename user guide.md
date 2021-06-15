@@ -166,7 +166,7 @@ Kontain runs on Linux hosts that meet these minimum requirements:
 
 Kontain runs on Azure, Google Cloud, and AWS instances supporting “nested virtualization”, i.e. with KVM enabled. Check with your cloud provider regarding nested virtualization support and configuration requirements. 
 
-On AWS, only “metal” instances (e.g. i3.metal) can support nested virtualization. For user convenience, Kontain provides an AWS Ubuntu-based AMI pre-configured with Kontain, Docker, and KKM. See “[Using a Kontain AMI on AWS](#using-a-kontain-ami-on-aws).” 
+On AWS, only “metal” instances (e.g. i3.metal) can support nested virtualization. For user convenience, Kontain provides an AWS Ubuntu-based AMI pre-configured with Kontain, Docker, and KKM. See “[Using a Kontain AMI on AWS][39].” 
 
 
 ### Do I Need KVM or KKM?
