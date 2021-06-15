@@ -35,27 +35,27 @@
 
   * [Tutorial #2: Build and Run a Java Kontainer][16]
 
-* [Using Kontain with Your Compiled Language Application] [17]
+* [Using Kontain with Your Compiled Language Application][17]
 
-  * [Overview] [18]
+  * [Overview][18]
 
-  * [Linking Object Files into a Kontain Runtime-Based Executable] [19]
+  * [Linking Object Files into a Kontain Runtime-Based Executable][19]
 
-  * [Creating a Unikernel from Dynamically Linked Code] [20]
+  * [Creating a Unikernel from Dynamically Linked Code][20]
 
-  * [Build and Run a Dynamically Linked Unikernel] [21]
+  * [Build and Run a Dynamically Linked Unikernel][21]
 
-  * [Creating Shared Libraries] [22]
+  * [Creating Shared Libraries][22]
 
-  * [Using Docker with Dynamically Linked Unikernels] [23]
+  * [Using Docker with Dynamically Linked Unikernels][23]
 
-  * [Running a Go Program as a Kontain Unikernel] [24]
+  * [Running a Go Program as a Kontain Unikernel][24]
 
-  * [Running an Alpine Executable as a Kontain Unikernel] [25]
+  * [Running an Alpine Executable as a Kontain Unikernel][25]
 
   * Building an Alpine Executable with Kontain GCC][26]
 
-* [Using Kontain with Your Interpreted Language Application] [27]
+* [Using Kontain with Your Interpreted Language Application][27]
 
   * Overview
 
