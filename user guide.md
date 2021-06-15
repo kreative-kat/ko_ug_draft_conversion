@@ -53,17 +53,17 @@
 
   * [Running an Alpine Executable as a Kontain Unikernel][25]
 
-  * Building an Alpine Executable with Kontain GCC][26]
+  * [Building an Alpine Executable with Kontain GCC][26]
 
 * [Using Kontain with Your Interpreted Language Application][27]
 
-  * Overview
+  * [Overview][28]
 
-  * [Using Kontain Python](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python)
+  * [Using Kontain Python][29]
 
-  * [Using Kontain Node.js (javascript)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript)
+  * [Using Kontain Node.js (javascript)][30}
 
-  * [Using Kontain Java](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java)
+  * [Using Kontain Java][31]
 
   * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-instastart-feature)
 
@@ -530,7 +530,7 @@ To create a Kontain unikernel from a compiled language application, you can:
 <span style="text-decoration:underline;">Known limitation</span>: Kontain runtime is based on the musl implementation of the standard C library. Kontain currently does not fully support the glibc implementation. As a result, an executable that is dynamically or statically linked using glibc, when run as a unikernel in Kontain VM, may cause a workload core dump. For more information about musl libc, see: [https://www.musl-libc.org/](https://www.musl-libc.org/). 
 
 
-### Linking Object Files into a Kontain Runtime-Based Executable {#linking-object-files-into-a-kontain-runtime-based-executable}
+### Linking Object Files into a Kontain Runtime-Based Executable
 
 C and  C++ programs can be _converted_ to a unikernel by relinking your code or object files with the Kontain runtime library. 
 
@@ -582,7 +582,7 @@ EXAMPLE:
 
 
 
-### Creating a Unikernel from Dynamically Linked Code {#creating-a-unikernel-from-dynamically-linked-code}
+### Creating a Unikernel from Dynamically Linked Code
 
 By default, `kontain-gcc` (`kontain-g++`) produces a statically linked unikernel that contains all of the code it needs to run. In most cases, this is the preferred way to create and run unikernels.
 
@@ -750,7 +750,7 @@ In general, a Linux executable built using musl libc runtime (e.g. for Alpine Li
 NOTE: When running an unmodified Linux executable as a unikernel, Kontain will automatically load the required support into the Kontain VM. This code converts syscalls from the app to hypercalls Kontain VM can handle.
 
 
-### Building an Alpine Executable with Kontain GCC  {#building-an-alpine-executable-with-kontain-gcc}
+### Building an Alpine Executable with Kontain GCC
 
 You can also use `kontain-gcc` (`kontain-g++`) when building an Alpine executable from your application. 
 
@@ -1535,15 +1535,30 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [15]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker>
 [16]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer>
 [17]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application>
-[18]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[19]:
-[20]:
-[21]:
-[22]:
-[23]:
-[24]:
-[25]:
-[26]:
+[18]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#overview>
+[19]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#linking-object-files-into-a-kontain-runtime-based-executable>
+[20]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-a-unikernel-from-dynamically-linked-code>
+[21]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[22]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[23]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[24]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[26]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#building-an-alpine-executable-with-kontain-gcc>
 [27]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application>
+[28]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[29]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python>
+[30]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript>
+[31]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java>
+[32]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[33]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[34]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[35]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[36]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+
 
 
