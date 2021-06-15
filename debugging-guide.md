@@ -13,7 +13,7 @@ Reference [Kontain release](https://github.com/kontainapp/km-releases): v0.1-bet
 
 Kontain is a tool for running individual programs wrapped in unikernels, directly on dedicated, lightweight Kontain VMs. 
 
-A _unikernel _is a single-address-space machine image that contains an application workload—the program you want to run in a container—combined with a minimal set of library functions which provide the OS services required to run the workload. 
+A _unikernel_ is a single-address-space machine image that contains an application workload—the program you want to run in a container—combined with a minimal set of library functions which provide the OS services required to run the workload. 
 
 Kontain requires no change to source or object files: a Kontain unikernel can be linked from unmodified application object files and libraries. Better still, in many cases Kontain can take an unmodified Linux binary and run it on a Kontain VM as a unikernel. 
 
