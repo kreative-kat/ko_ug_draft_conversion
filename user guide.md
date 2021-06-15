@@ -297,9 +297,9 @@ Prerequisite: Both [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https:
 
 **What’s Next?**
 
-To try Kontain with a simple compiled code example, go to [Tutorial #1, Part A: Create and Run a Unikernel](#tutorial-#1-part-a-create-and-run-a-unikernel)` `
+To try Kontain with a simple compiled code example, go to [Tutorial #1, Part A: Create and Run a Unikernel][14] `
 
-To try Kontain with a simple interpreted language example, go to [Tutorial #2: Build and Run a Java Kontainer](#tutorial-#2-build-and-run-a-java-kontainer)
+To try Kontain with a simple interpreted language example, go to [Tutorial #2: Build and Run a Java Kontainer][16]
 
 To try Kontain with your own application code, go to [Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application) or [Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application)
 
@@ -825,7 +825,7 @@ These unikernels contain the unmodified executable linked with Kontain libraries
 
 You can use Docker to build and package your interpreted language application files with Kontain runtime into a new kontainer, then run the workload as a unikernel using `docker run` with the -`-runtime krun` flag. 
 
-[Tutorial #2, Build and Run a Java Kontainer](#tutorial-#2-build-and-run-a-java-kontainer) provides an example of building and running a kontainer with Kontain Java runtime. You can adapt this procedure for use with Kontain Python or Kontain Node.js runtime.
+[Tutorial #2, Build and Run a Java Kontainer][] provides an example of building and running a kontainer with Kontain Java runtime. You can adapt this procedure for use with Kontain Python or Kontain Node.js runtime.
 
 Alternatively, you can pass your application files to a kontainer created from a Kontain pre-built unikernel, which allows you to bypass the step of creating a new kontainer with your code. You run your application using `docker run` or extract the files from the container and run locally, without Docker. 
 
