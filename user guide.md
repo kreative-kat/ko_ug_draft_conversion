@@ -1323,7 +1323,7 @@ posix.uname_result(sysname='kontain-runtime', nodename='ddef05d46147', release='
 
 ### Using the Docker Runtime
 
-Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See ["Runtime Config for Docker"](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-docker)).
+Running a workload in Docker using Kontain runtime (`krun`) requires Docker configuration. (See ["Runtime Config for Docker"][41]).
 
 When you use Kontain runtime, `docker exec` and all subprocesses are automatically wrapped in dedicated Kontain VMs (one VM per process). 
 
@@ -1516,6 +1516,7 @@ gdb -q --ex="target remote localhost:2160"
 When a workload process exec()'s, the GDB `catch exec` command will allow the GDB client to gain control after the `exec` call successfully completes.
 
 For a detailed guide to Kontain debugging, refer to this guide: [Debugging Kontain Unikernels](https://docs.google.com/document/u/0/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit). 
+
 
 
 [1]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#about-this-document> 
