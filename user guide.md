@@ -61,7 +61,7 @@
 
   * [Using Kontain Python][29]
 
-  * [Using Kontain Node.js (javascript)][30}
+  * [Using Kontain Node.js (javascript)][30]
 
   * [Using Kontain Java][31]
 
