@@ -23,9 +23,9 @@
 
   * [How Kontain Works with Docker][10]
 
-  * Additional Documentation and Support
+  * [Additional Documentation and Support][11]
 
-* [Quick Start](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start)
+* [Quick Start][12]
 
   * [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
 
@@ -1528,4 +1528,5 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [8]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-system-overview>
 [9]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-handles-syscalls>
 [10]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-works-with-docker>
-
+[11]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#additional-documentation-and-support>
+[12]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start>
