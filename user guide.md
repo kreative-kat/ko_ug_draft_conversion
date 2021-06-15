@@ -19,9 +19,9 @@
 
 * [Kontain System Overview][8]
 
-  * How Kontain Handles Syscalls
+  * [How Kontain Handles Syscalls][9]
 
-  * How Kontain Works with Docker
+  * [How Kontain Works with Docker][10]
 
   * Additional Documentation and Support
 
@@ -213,14 +213,14 @@ The _Kontain VM_ provides hardware resources (CPU, memory) to the application. K
 A Kontain VM is optimized to provide the workload with just the features it needs to execute—mainly CPU and memory.  The Kontain VM model dynamically adjusts to application requirements, for example, growing and shrinking memory to meet the application’s demands and adding and removing virtual CPUs as the application manipulates thread pools. The Kontain Monitor spawns additional KM processes as needed to manage dedicated VMs.
 
 
-### How Kontain Handles Syscalls {#how-kontain-handles-syscalls}
+### How Kontain Handles Syscalls
 
 System calls are handled differently depending on how the Kontain unikernel is built. When running an unmodified Linux executable as a unikernel, Kontain will automatically use support that has been preloaded into the Kontain VM. This code performs a translation step, converting _syscalls_ from the app to _hypercalls_ that the Kontain VM can handle.
 
 The _Kontain runtime library_ does not use syscalls to request services as regular libraries—including _musl_ and _glibc_—do. Instead, it uses ‘out’ command-based _hypercalls_. An application that has been linked with the provided Kontain runtime libraries will issue a _hypercall_ directly to Kontain Monitor. 
 
 
-### How Kontain Works with Docker {#how-kontain-works-with-docker}
+### How Kontain Works with Docker
 
 NOTE: Although this section refers to using Kontain with Docker, Kontain works equally well with other container management tools, e.g. RedHat Podman. 
 
@@ -1526,4 +1526,6 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [6]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-in-the-cloud>
 [7]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm>
 [8]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-system-overview>
-[9]: 
+[9]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-handles-syscalls>
+[10]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-works-with-docker>
+
