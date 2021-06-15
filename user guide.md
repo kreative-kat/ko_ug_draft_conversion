@@ -478,7 +478,7 @@ NOTES:
     WORKDIR /app
     RUN ./mvnw install
 
-    _FROM kontainapp/runenv-jdk-11_
+    FROM kontainapp/runenv-jdk-11
     WORKDIR /app
     ARG APPJAR=/app/target/*.jar
     COPY --from=builder ${APPJAR} app.jar
