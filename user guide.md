@@ -1538,9 +1538,8 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [18]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#overview>
 [19]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#linking-object-files-into-a-kontain-runtime-based-executable>
 [20]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-a-unikernel-from-dynamically-linked-code>
-[21]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[21]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#build-and-run-a-dynamically-linked-unikernel>
 [22]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-shared-libraries>
-
 [23]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
 [24]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
 [25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
