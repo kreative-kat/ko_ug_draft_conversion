@@ -65,33 +65,33 @@
 
   * [Using Kontain Java][31]
 
-  * [Using a Snapshot to Speed Startup (“Instastart” Feature)](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-instastart-feature)
+  * [Using a Snapshot to Speed Startup (“Instastart” Feature)][32]
 
-* [Debugging Kontain Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-kontain-workloads)
+* [Debugging Kontain Workloads][33]
 
-  * [Analyzing Core Dumps](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#analyzing-core-dumps)
+  * [Analyzing Core Dumps][34]
 
-  * [Live Debugging from the Command Line](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#live-debugging-from-the-command-line)
+  * [Live Debugging from the Command Line][35]
 
-  * [Example: Debugging a Workload with KM GDB](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#Example-debugging-a-workload-with-km-gdb)
+  * [Example: Debugging a Workload with KM GDB][36]
 
-  * [Restarting a Unikernel Debuggee](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#restarting-a-unikernel-debuggee)
+  * [Restarting a Unikernel Debuggee][37]
 
-* [Appendix](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#appendix)
+* [Appendix][38]
 
-  * [Using a Kontain AMI on AWS](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws)
+  * [Using a Kontain AMI on AWS][39]
 
-  * [Installing Kontain on Your Own Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm)
+  * [Installing Kontain on Your Own Linux VM][40]
 
-  * [Runtime Config for Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker)
+  * [Runtime Config for Docker][41]
 
-  * [Using the Docker Runtime](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime)
+  * [Using the Docker Runtime][42]
 
-  * [Using Kontain with Azure](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure)
+  * [Using Kontain with Azure][43]
 
-  * [Using Kontain with Kubernetes](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes)
+  * [Using Kontain with Kubernetes][44]
 
-  * [Debugging Child Processes and exec Workloads](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads)
+  * [Debugging Child Processes and exec Workloads][45]
 
 
 ## About This Document
@@ -1549,16 +1549,19 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [29]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python>
 [30]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript>
 [31]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java>
-[32]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[33]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[34]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[35]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[36]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-<https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-
+[32]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-snapshot-to-speed-startup-instastart-feature>
+[33]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#ebugging-kontain-workloads>
+[34]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#analyzing-core-dumps>
+[35]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#live-debugging-from-the-command-line>
+[36]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#Example-debugging-a-workload-with-km-gdb>
+[37]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#restarting-a-unikernel-debuggee>
+[38]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#appendix>
+[39]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-a-kontain-ami-on-aws>
+[40]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#installing-kontain-on-your-own-linux-vm>
+[41]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#runtime-config-for-Docker>
+[42]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-the-docker-runtime>
+[43]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-azure>
+[44]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-kubernetes>
+[45]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#debugging-child-processes-and-exec-workloads>
 
 
