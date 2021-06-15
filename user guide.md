@@ -27,11 +27,11 @@
 
 * [Quick Start][12]
 
-  * [Getting Started: Using Kontain’s Pre-Configured Linux VM](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
+  * [Getting Started: Using Kontain’s Pre-Configured Linux VM][13]
 
-  * [Tutorial #1, Part A: Create and Run a Unikernel](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel)
+  * [Tutorial #1, Part A: Create and Run a Unikernel][14]
 
-  * [Tutorial #1, Part B: Build and Run a Kontainer with Docker](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker)
+  * [Tutorial #1, Part B: Build and Run a Kontainer with Docker][15]
 
   * [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
 
@@ -1530,3 +1530,6 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [10]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#how-kontain-works-with-docker>
 [11]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#additional-documentation-and-support>
 [12]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#quick-start>
+[13]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm>
+[14]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel>
+[15]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker>
