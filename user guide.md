@@ -1055,7 +1055,7 @@ handle SIG63 nostop
 
 This instruction can be used at each debugging session, or you can add it to the `~/.gdbinit` file.
 
-<span style="text-decoration:underline;">Known issue</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads](#debugging-child-processes-and-exec-workloads).”
+<span style="text-decoration:underline;">Known issue</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads][45].”
 
 
 ### Example: Debugging a Workload with KM GDB
@@ -1156,7 +1156,7 @@ step 1:
 
 **Next Steps:** 
 
-The Docker version installed with the Kontain AMI needs to be configured to work with Kontain. See “[Runtime Config for Docker](#runtime-config-for-docker).”
+The Docker version installed with the Kontain AMI needs to be configured to work with Kontain. See “[Runtime Config for Docker][41].”
 
 
 ### Installing Kontain on Your Own Linux VM
@@ -1178,7 +1178,7 @@ To check your kernel version, use: `uname -a`
 *   Ubuntu 20 or Fedora 32 (recommended)
 2. Virtualization must be enabled on the installation kernel: 
 
-    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm)) 
+    KVM installed and read/writable, or Kontain Kernel Module (KKM) installed. (See ["Do I need KVM or KKM?"]([7]) 
 
 
     To check for the presence of KVM: 
@@ -1260,7 +1260,7 @@ The installation script automatically executes a simple unikernel in a Kontain V
 
 **Next steps:**
 
-Be sure you have Docker installed and [configured to run with Kontain][41]). 
+Be sure you have Docker installed and [configured to run with Kontain][41]. 
 
 
 ### Runtime Config for Docker
