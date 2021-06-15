@@ -811,7 +811,7 @@ For information about the Kontain commands used in this section: `/opt/kontain/b
 NOTE: The example scripts referenced in this section can be found in the /`opt/kontain/examples` directory. 
 
 
-### Overview {#overview}
+### Overview
 
 An interpreted language program can be run as a Kontain unikernel using pre-built Java, Python, and Node.js executables (kontainers). These [pre-built Kontain images are available on Docker Hub](https://hub.docker.com/u/kontainapp), listed as `kontainapp/runenv-&lt;language>:`
 
@@ -1545,7 +1545,7 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-an-alpine-executable-as-a-kontain-unikernel>
 [26]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#building-an-alpine-executable-with-kontain-gcc>
 [27]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application>
-[28]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[28]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#overview>
 [29]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-python>
 [30]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-nodejs-javascript>
 [31]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-java>
