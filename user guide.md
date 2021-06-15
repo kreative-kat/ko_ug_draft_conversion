@@ -53,9 +53,9 @@
 
   * [Running an Alpine Executable as a Kontain Unikernel] [25]
 
-  * [Building an Alpine Executable with Kontain GCC] [26]
+  * [Building an Alpine Executable with Kontain GCC][26]
 
-* [Using Kontain with Your Interpreted Language Application] [27]
+* [Using Kontain with Your Interpreted Language Application][27]
 
   * Overview
 
