@@ -507,7 +507,7 @@ docker build -t example/kontain-java .
 If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application).”
 
 
-## Using Kontain with Your Compiled Language Application <a name="using-kontain-with-your-compiled-language-application"></a>
+## Using Kontain with Your Compiled Language Application
 
 This section covers how to package your C, C++, or Go application to run in a Kontain VM, with or without using containers and container management tools such as Docker and RedHat Podman. 
 
@@ -516,7 +516,7 @@ For information about the Kontain commands used in this section: `/opt/kontain/b
 NOTE: The example scripts referenced in this section can be found in the /`opt/kontain/examples` directory. 
 
 
-### Overview {#overview}
+### Overview
 
 For compiled language applications, you first need to create a unikernel from your code. You can run a unikernel in KM, without a container, or you can package it as a _kontainer_ and run it in Docker, as shown in [Tutorial #1, Part B](#tutorial-#1-part-b-build-and-run-a-kontainer-with-docker). 
 
@@ -591,7 +591,7 @@ However, you can also create and run a unikernel from code that requires dynamic
 Use the `-dynamic `option with the `kontain-gcc` (`kontain-g++`) command, and it will create a dynamically linked unikernel.  The output is a file with a `.kmd `suffix. Note that the `.kmd` suffix helps you distinguish a dynamically linked executable from a statically linked (`.km`) file.
 
 
-### Build and Run a Dynamically Linked Unikernel {#build-and-run-a-dynamically-linked-unikernel}
+### Build and Run a Dynamically Linked Unikernel
 
 
 
@@ -630,7 +630,7 @@ EXAMPLE:
 
 
 
-### Creating Shared Libraries  {#creating-shared-libraries}
+### Creating Shared Libraries
 
 You can create shared libraries using the `-shared `option, though in most cases you can use standard shared libraries.
 
@@ -1539,7 +1539,8 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [19]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#linking-object-files-into-a-kontain-runtime-based-executable>
 [20]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-a-unikernel-from-dynamically-linked-code>
 [21]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[22]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[22]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-shared-libraries>
+
 [23]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
 [24]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
 [25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
