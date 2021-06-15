@@ -17,7 +17,7 @@
 
   * [Do I Need KVM or KKM?][7]
 
-* Kontain System Overview
+* [Kontain System Overview][8]
 
   * How Kontain Handles Syscalls
 
@@ -1526,3 +1526,4 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [6]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-in-the-cloud>
 [7]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#do-i-need-kvm-or-kkm>
 [8]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#kontain-system-overview>
+[9]: 
