@@ -27,7 +27,7 @@
 
 * [Quick Start][12]
 
-  * [Getting Started: Using Kontain’s Pre-Configured Linux VM] [13]
+  * [Getting Started: Using Kontain’s Pre-Configured Linux VM][13]
 
   * [Tutorial #1, Part A: Create and Run a Unikernel][14]
 
