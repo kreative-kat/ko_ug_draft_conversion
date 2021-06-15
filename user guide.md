@@ -421,7 +421,7 @@ docker run --rm --runtime=krun kontain-hello
 
 **What’s Next?**
 
-If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application).” 
+If you want to experiment with Kontain using your own application, see “[Using Kontain with Your Compiled Language Application][17].” 
 
 
 ### Tutorial #2: Build and Run a Java Kontainer
@@ -504,7 +504,7 @@ docker build -t example/kontain-java .
 
 **What’s Next?**
 
-If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application).”
+If you want to experiment with Kontain using Java, Node.js or Python , see “[Using Kontain with Your Interpreted Language Application][27].”
 
 
 ## Using Kontain with Your Compiled Language Application
@@ -518,7 +518,7 @@ NOTE: The example scripts referenced in this section can be found in the /`opt/k
 
 ### Overview
 
-For compiled language applications, you first need to create a unikernel from your code. You can run a unikernel in KM, without a container, or you can package it as a _kontainer_ and run it in Docker, as shown in [Tutorial #1, Part B](#tutorial-#1-part-b-build-and-run-a-kontainer-with-docker). 
+For compiled language applications, you first need to create a unikernel from your code. You can run a unikernel in KM, without a container, or you can package it as a _kontainer_ and run it in Docker, as shown in [Tutorial #1, Part B][15]. 
 
 To create a Kontain unikernel from a compiled language application, you can: 
 
@@ -538,7 +538,7 @@ Kontain provides convenience wrappers `kontain-gcc` and `kontain-g++`. These are
 
 NOTE: Kontain’s GCC wrappers add and modify arguments before passing the code to the actual compiler. To view the final compiler flags passed to GCC or G++, run `kontain-gcc` or `kontain-g++` with the `-kv `(verbose) flag.
 
-To see the following procedure with example code, go to: [Tutorial 1, Part A](#tutorial-#1-part-a-create-and-run-a-unikernel)
+To see the following procedure with example code, go to: [Tutorial 1, Part A][14]
 
 **Procedure**
 
@@ -825,7 +825,7 @@ These unikernels contain the unmodified executable linked with Kontain libraries
 
 You can use Docker to build and package your interpreted language application files with Kontain runtime into a new kontainer, then run the workload as a unikernel using `docker run` with the -`-runtime krun` flag. 
 
-[Tutorial #2, Build and Run a Java Kontainer][] provides an example of building and running a kontainer with Kontain Java runtime. You can adapt this procedure for use with Kontain Python or Kontain Node.js runtime.
+[Tutorial #2, Build and Run a Java Kontainer][16] provides an example of building and running a kontainer with Kontain Java runtime. You can adapt this procedure for use with Kontain Python or Kontain Node.js runtime.
 
 Alternatively, you can pass your application files to a kontainer created from a Kontain pre-built unikernel, which allows you to bypass the step of creating a new kontainer with your code. You run your application using `docker run` or extract the files from the container and run locally, without Docker. 
 
