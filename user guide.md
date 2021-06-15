@@ -657,7 +657,7 @@ libc.so => /opt/kontain/runtime/libc.so (0x00007eff48da7000)
 
 
 
-### Using Docker with Dynamically Linked Unikernels  {#using-docker-with-dynamically-linked-unikernels}
+### Using Docker with Dynamically Linked Unikernels
 
 Running a dynamically linked unikernel under Docker requires packaging the necessary set of libraries with the unikernel. You can modify the Dockerfile to use Kontain-provided base images for this purpose, or you can create your own container image with the exact set of libraries required.   
 
@@ -666,7 +666,7 @@ To use the Kontain base image that contains a minimal set of libraries, use  `FR
 When there are more complex dependencies in the code, Kontain provides a more populated collection of libraries. Use `FROM kontain/runenv-dynamic` for those cases.
 
 
-### Running a Go Program as a Kontain Unikernel {#running-a-go-program-as-a-kontain-unikernel}
+### Running a Go Program as a Kontain Unikernel
 
 Kontain supports running an unmodified Go program as a unikernel, provided the executable _does not use glibc_. A Go program compiled with CGO_ENABLED=0 can, therefore, be run under Kontain as a unikernel.
 
@@ -743,7 +743,7 @@ EOF
 
 
 
-### Running an Alpine Executable as a Kontain Unikernel  {#running-an-alpine-executable-as-a-kontain-unikernel}
+### Running an Alpine Executable as a Kontain Unikernel
 
 In general, a Linux executable built using musl libc runtime (e.g. for Alpine Linux) runs under Kontain, unmodified, as a unikernel. Whether statically or dynamically linked, if your executable is already built for Alpine, you can try it in Kontain. 
 
@@ -1540,9 +1540,9 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [20]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-a-unikernel-from-dynamically-linked-code>
 [21]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#build-and-run-a-dynamically-linked-unikernel>
 [22]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#creating-shared-libraries>
-[23]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[24]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
-[25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
+[23]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-docker-with-dynamically-linked-unikernels>
+[24]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-a-go-program-as-a-kontain-unikernel>
+[25]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#running-an-alpine-executable-as-a-kontain-unikernel>
 [26]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#building-an-alpine-executable-with-kontain-gcc>
 [27]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-interpreted-language-application>
 [28]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#
