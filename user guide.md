@@ -33,7 +33,7 @@
 
   * [Tutorial #1, Part B: Build and Run a Kontainer with Docker][15]
 
-  * [Tutorial #2: Build and Run a Java Kontainer](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer)
+  * [Tutorial #2: Build and Run a Java Kontainer][16]
 
 * [Using Kontain with Your Compiled Language Application](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#using-kontain-with-your-compiled-language-application)
 
@@ -237,7 +237,7 @@ You can also run a Kontain workload as a Docker container with default Docker ru
 For more information, see [Using Docker Runtime](#using-the-docker-runtime).
 
 
-### Additional Documentation and Support {#additional-documentation-and-support}
+### Additional Documentation and Support 
 
 
 
@@ -1533,3 +1533,4 @@ For a detailed guide to Kontain debugging, refer to this guide: [Debugging Konta
 [13]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm>
 [14]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-a-create-and-run-a-unikernel>
 [15]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-1-part-b-build-and-run-a-kontainer-with-docker>
+[16]: <https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#tutorial-2-build-and-run-a-java-kontainer>
