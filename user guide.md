@@ -96,7 +96,7 @@
 
 ## About This Document
 
-This document provides information for developers to install Kontain and use it to run workloads—either  using the sample code provided in the Kontain release repository or using their own applications. 
+This document provides information for developers to install Kontain and use it to run workloads—either using the sample code provided in the Kontain release repository or using their own applications. 
 
 Reference [Kontain release](https://github.com/kontainapp/km-releases): v0.1-beta2
 
@@ -197,7 +197,7 @@ Kontain’s implementation of a OCI Runtime compliant container interface is *`k
 
 A _Kontain unikernel_ is the application code packaged with the Kontain runtime library. At runtime, this small, executable artifact runs in a Kontain VM. 
 
-Kontain provides tools to build unikernels that are optimized for container use cases. Packaging this workload-optimized unikernel as an OCI-compliant container image yields what we call a _kontainer_. For more information about kontainers, see “[How Kontain Works with Docker](#how-kontain-works-with-docker),” below.
+Kontain provides tools to build unikernels that are optimized for container use cases. Packaging this workload-optimized unikernel as an OCI-compliant container image yields what we call a _kontainer_. For more information about kontainers, see “[How Kontain Works with Docker][10],” below.
 
 A Kontain unikernel can be created from any application, containerized or not:
 
@@ -230,11 +230,11 @@ A ‘kontainer’ is a Docker (OCI) container with a Kontain unikernel in the co
 
 A kontainer is run by passing Kontain runtime (`krun`) to `docker run.` 
 
-To run a kontainer, Docker must be configured to use `krun`. See [Runtime Config for Docker](#runtime-config-for-docker) for instructions.
+To run a kontainer, Docker must be configured to use `krun`. See [Runtime Config for Docker][41] for instructions.
 
 You can also run a Kontain workload as a Docker container with default Docker runtime. This use model still provides the benefits of running a workload as a unikernel in a VM, but Docker overhead is still present. More importantly, `docker exec` and any subprocesses present will evade wrapping in a VM; instead, these will be executed outside of Kontain. Therefore, while this method can be useful for testing, it should not be used in production. 
 
-For more information, see [Using Docker Runtime](#using-the-docker-runtime).
+For more information, see [Using Docker Runtime][42].
 
 
 ### Additional Documentation and Support
@@ -242,7 +242,7 @@ For more information, see [Using Docker Runtime](#using-the-docker-runtime).
 
 
 *   Command line help: `/opt/kontain/bin/km --help`
-*   [Debugging Kontain Unikernels](https://www.google.com/url?q=https://docs.google.com/document/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit?usp%3Dsharing&sa=D&source=editors&ust=1619070677677000&usg=AOvVaw3wDZDS-8ACFqu6ioKfKDj-)_ _
+*   [Debugging Kontain Unikernels](https://www.google.com/url?q=https://docs.google.com/document/d/17s0QY73C_x1LEOXzkTl9MPKrNGo7PSaD-f9oZ8phkkI/edit?usp%3Dsharing&sa=D&source=editors&ust=1619070677677000&usg=AOvVaw3wDZDS-8ACFqu6ioKfKDj-)
 
 
 ## Quick Start
@@ -301,7 +301,7 @@ To try Kontain with a simple compiled code example, go to [Tutorial #1, Part A: 
 
 To try Kontain with a simple interpreted language example, go to [Tutorial #2: Build and Run a Java Kontainer][16]
 
-To try Kontain with your own application code, go to [Using Kontain with Your Compiled Language Application](#using-kontain-with-your-compiled-language-application) or [Using Kontain with Your Interpreted Language Application](#using-kontain-with-your-interpreted-language-application)
+To try Kontain with your own application code, go to [Using Kontain with Your Compiled Language Application][17] or [Using Kontain with Your Interpreted Language Application][27]
 
 
 ### Tutorial #1, Part A: Create and Run a Unikernel
@@ -314,7 +314,7 @@ You will be running Kontain Monitor from the command line. For KM command line h
 
 
 
-*   Assumes pre-configured Kontain Vagrant box (or Kontain installed with access to /dev/kvm or /dev/kkm) See [”Getting Started: Using Kontain’s Pre-Configured Linux VM”](https://github.com/kreative-kat/ko_ug_draft_conversion/blob/main/user%20guide.md#getting-started-using-kontains-pre-configured-linux-vm)
+*   Assumes pre-configured Kontain Vagrant box (or Kontain installed with access to /dev/kvm or /dev/kkm) See [”Getting Started: Using Kontain’s Pre-Configured Linux VM”][14]
 *   Requires GCC and `kontain-gcc` to be installed. 
 
 NOTE: The C program used here is provided in the `km-releases/examples` directory.
@@ -478,7 +478,7 @@ NOTES:
     WORKDIR /app
     RUN ./mvnw install
 
-    FROM kontainapp/runenv-jdk-11
+    _FROM kontainapp/runenv-jdk-11_
     WORKDIR /app
     ARG APPJAR=/app/target/*.jar
     COPY --from=builder ${APPJAR} app.jar
@@ -486,7 +486,7 @@ NOTES:
 ```
 
 
-2) Use the Docker build command to build a container with the Kontain Java image:
+2) Use the 'docker build` command to build a container with the Kontain Java image:
 
 
 ```
@@ -513,7 +513,7 @@ This section covers how to package your C, C++, or Go application to run in a Ko
 
 For information about the Kontain commands used in this section: `/opt/kontain/bin/km --help`
 
-NOTE: The example scripts referenced in this section can be found in the /`opt/kontain/examples` directory. 
+NOTE: The example scripts referenced in this section can be found in the `/opt/kontain/examples` directory. 
 
 
 ### Overview
@@ -823,7 +823,7 @@ An interpreted language program can be run as a Kontain unikernel using pre-buil
 
 These unikernels contain the unmodified executable linked with Kontain libraries and packaged as a Docker image for use in your container. 
 
-You can use Docker to build and package your interpreted language application files with Kontain runtime into a new kontainer, then run the workload as a unikernel using `docker run` with the -`-runtime krun` flag. 
+You can use Docker to build and package your interpreted language application files with Kontain runtime into a new kontainer, then run the workload as a unikernel using `docker run` with the `-runtime krun` flag. 
 
 [Tutorial #2, Build and Run a Java Kontainer][16] provides an example of building and running a kontainer with Kontain Java runtime. You can adapt this procedure for use with Kontain Python or Kontain Node.js runtime.
 
@@ -1142,7 +1142,7 @@ To use the Kontain AMI in your AWS environment:
     ```
 
 
-2. Create a VM on AWS, replacing [$image_id] in the following with the verified image ID from  \
+2. Create a VM on AWS, replacing `[$image_id]` in the following with the verified image ID from  \
 step 1:
 
     ```
