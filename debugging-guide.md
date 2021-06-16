@@ -1,5 +1,5 @@
 
-## Debugging Kontain Unikernels
+# Debugging Kontain Unikernels
 
 
 ## About This Document
@@ -34,7 +34,7 @@ Figure 1. Kontain’s Built-In GDB Server Supports Full GDB Debugging
 
 In this document, we provide examples of debugging an application running in Kontain VM, as well as analyzing core dumps produced by the application.
 
-For more information about the GDB commands referenced in this document, see: “[Top (Debugging with GDB)](https://sourceware.org/gdb/current/onlinedocs/gdb/)_”_
+For more information about the GDB commands referenced in this document, see: “[Top (Debugging with GDB)](https://sourceware.org/gdb/current/onlinedocs/gdb/).”
 
 For information about using Visual Studio Code using C++. see: “[Get Started with C++ on Linux](https://code.visualstudio.com/docs/cpp/config-linux)”
 
@@ -46,7 +46,7 @@ For information about the Kontain commands referenced in this document, type:  \
 
 This is a step-by-step demonstration of how to build, run, and debug C or C++ code as a unikernel running in a Kontain VM, using Visual Studio Code. 
 
-We are using the [C++ code (.cpp file) provided in the Appendix ](#appendix-source-code), which includes “`raise(SIGABRT);`” to generate a code dump for the purpose of this demo. 
+We are using the [C++ code (.cpp file) provided in the Appendix ][3], which includes “`raise(SIGABRT);`” to generate a code dump for the purpose of this demo. 
 
 **Prerequisites:**
 
@@ -891,4 +891,5 @@ console.log('listening on port ', port)
 server.listen(port);
 ```
 [1]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#getting-started-using-kontains-pre-configured-linux-vm>
-[2]: ,https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#kontain-user-guide.
+[2]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#kontain-user-guide>
+[3]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/debugging-guide.md#appendix-source-code>
