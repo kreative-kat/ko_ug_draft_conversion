@@ -680,7 +680,7 @@ CMD ["npm", "start"]
 This is a very simple program from Kontain’s test set; it checks for the TLS constructors/destructors sequence. For the debugging demonstration, “`raise(SIGABRT);`” has been added to generate a core dump.
 
 
-```
+```c
 /*
 *  Copyright © 2021 Kontain Inc.
 *
@@ -831,7 +831,7 @@ int main()
 
 ### Node.js Example Code
 
-```
+```js
 var port = 8080;
 var http = require('http');
 var server = http.createServer(function(request, response) {
