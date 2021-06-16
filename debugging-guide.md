@@ -889,5 +889,5 @@ var server = http.createServer(function(request, response) {
 });
 console.log('listening on port ', port)
 server.listen(port);
-
+```
 [1]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#getting-started-using-kontains-pre-configured-linux-vm>
