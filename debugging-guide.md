@@ -271,7 +271,7 @@ This instruction can be used at each debugging session, or you can add it to the
 For information about Kontain commands go to:  \
 `/opt/kontain/bin/km --help`
 
-<span style="text-decoration:underline;">Known issue</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads](https://docs.google.com/document/d/1wNPGmGdjOTvaOjj8h1GbVAJ-naBKO5zsyeOEFUpapNQ/edit#heading=h.vj5qm955y4wt).”
+<span style="text-decoration:underline;">Known Limitation</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads]().”
 
 
 ### 
@@ -409,7 +409,7 @@ You can debug Python code using Visual Studio Code or directly with the ``debugp
 
 *   debugpy must be installed.
 *   Visual Studio Code` launch.json` must point to the correct Python interpreter (i.e. Python is a symlink to `/opt/kontain/bin/km`) as described in “[Running Unmodified Scripts](#running-unmodified-scripts),” above.
-1. Configure VS Code. Here is an example `launch.json` configuration; you would add it to the configurations** **array`.`
+1. Configure VS Code. Here is an example `launch.json` configuration:
 
 
 ```
@@ -427,53 +427,39 @@ You can debug Python code using Visual Studio Code or directly with the ``debugp
 
 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
+![VSC Python unikernel run and debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image11.png)
 
 
 
 
 2. Now you can visually debug Python code as a Python unikernel in Kontain VM, and the debugging experience will be the same as for any other Python program: 
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
  
+![VSC Python unikernel debugging investigation](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image10.png)
 
 
 ### Javascript (node.js) Example
 
-Kontain supports regular debugging. In this example, we demonstrate a Node debugger attached to running Javascript code (started with `--inspect` flag). 
+Kontain supports Node.js debugging. In this example, we demonstrate a Node debugger attached to running Javascript code (started with `--inspect` flag). 
 
 **Setup Used for This Example**:
 
 
 
-*   Kontain virtualization module (KKM). We recommend that you use the prepared Ubuntu VM available from Vagrant Cloud, which includes KKM. 
+*   Kontain virtualization module (KKM). (We recommend that you use the prepared Ubuntu VM available from Vagrant Cloud, which includes KKM.) 
 *   A small http server: “`Hello from Node.js" `([code provided in the Appendix)](#node-js-example-code).
 *   Visual Studio “**Attach**” debug config, provided by Node support bundled in VS Code.
 *   `curl localhost:8080`
 
 
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
+![VSC Node.js debugging](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image5.png)
 
 
 ## Debugging Golang
 
 Currently, Kontain Golang unikernels can only be debugged with GDB, and [GDB support for Golang is weak](https://golang.org/doc/gdb). As a workaround, you can debug Go code natively on your platform, then run the debugged code as a unikernel by passing the file name to the `km `command.
 
-NOTE: Kontain only supports GOLANG built with `CGO_ENABLED=0`. We are working to resolve known issues with `CGO_ENABLED=1`.
-
+<span style="text-decoration:underline;">Known Limitation</span>: Kontain only supports Go built with `CGO_ENABLED=0`. We are working to resolve known issues with `CGO_ENABLED=1`.
 
 ## Debugging on Mac and Windows
 
