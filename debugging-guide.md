@@ -693,11 +693,6 @@ CMD ["npm", "start"]
 
 4. Select “Kontain Node.js launch” in the **Run and Debug** menu to rebuild the kontainer, using the pre-created container image with node unikernel and run it with `--inspect` flags. 
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![Kontain Node.js launch](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image1.png)
 
 
