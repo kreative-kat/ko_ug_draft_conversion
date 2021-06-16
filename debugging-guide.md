@@ -487,7 +487,7 @@ In this example debugging session, we’ll use Visual Studio Code to edit and de
 
     NOTE: Kontain’s Vagrant box is provided for virtualbox only. If you want to use Hyper-V, please open an issue on [https://github.com/kontainapp/km-releases](https://github.com/kontainapp/km-releases) 
 
-2. Visual Studio Code installed _with _the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
+2. Visual Studio Code installed _with the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)_.
 3. Ensure that GCC is installed on the VM where Kontain is installed. Run `sudo apt-get install g++` on the VM (in the VS Code terminal). NOTE: This is part of VS Code setup; for more information, see “[C++ programming with Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp#_tutorials).”
 
 
@@ -506,14 +506,9 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
 
 
-2. Connect VS Code to the VM where Kontain is installed:  \
- \
+2. Connect VS Code to the VM where Kontain is installed:  
 
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
+![VSC Remote Connect to Kontain VM](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image2.png)
 
 3. Add the example [.cpp file from the Appendix](#c-example-code) to the editor and save it.
 4. Add the folder to VS Workspace and save it.
@@ -528,10 +523,7 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
  
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
+![VSC unikernel run and debug WindowsMac](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image9.png)
 
 
 
@@ -539,7 +531,7 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
 In this example, we’re going to debug a Node Express application in a “kontainer” under Visual Studio Code. 
 
-You can use Docker to build and run a Kontain workload, as a unikernel, in a kontainer. A _kontainer_ is a Docker (OCI) container with a Kontain unikernel (`node.km` in this case) in the container image, and Kontain runtime (`krun`) available at runtime. As in a regular Docker workflow, a kontainer image is created using the `docker build` command. The standard executable in the container image is replaced with a Kontain unikernel. A kontainer is run by passing Kontain runtime (`krun`) to `docker run.` 
+You can use Docker to build and run a Kontain workload, as a unikernel, in a kontainer. A *kontainer* is a Docker (OCI) container with a Kontain unikernel (`node.km` in this case) in the container image, and Kontain runtime (`krun`) available at runtime. As in a regular Docker workflow, a kontainer image is created using the `docker build` command. The standard executable in the container image is replaced with a Kontain unikernel. A kontainer is run by passing Kontain runtime (`krun`) to `docker run.` 
 
 **Prerequisites**: 
 
@@ -551,7 +543,7 @@ You can use Docker to build and run a Kontain workload, as a unikernel, in a kon
 
 **Setup**:
 
-Follow [Microsoft's example of running and debugging Node Express in Visual Studio](https://code.visualstudio.com/docs/containers/quickstart-node). You will then have a working app and a `Dockerfile `that can be run under Visual Studio debugger. 
+Follow [Microsoft's example of running and debugging Node Express in Visual Studio](https://code.visualstudio.com/docs/containers/quickstart-node). You will then have a working app and a `Dockerfile` that can be run under Visual Studio debugger. 
 
 **Procedure:**
 
@@ -644,7 +636,7 @@ CMD ["npm", "start"]
 
 3. Add a Debug Config 
 
-    We will add the following code** **to the `launch.json` file:
+    We then add the following code to the `launch.json` file:
 
 
 
@@ -661,9 +653,9 @@ CMD ["npm", "start"]
 
 
 
-4. Select “Kontain Node.js launch” in the **Run and Debug** menu to rebuild the kontainer, using the pre-created container image with node unikernel and run it with `--inspect` flags. 
+4. Select “Kontain Node.js launch” in the **Run and Debug** menu to rebuild the kontainer (using the pre-built container image with the node unikernel) and run it with `--inspect` flags. 
 
-![Kontain Node.js launch](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image1.png)
+![VSC Kontainer run and debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image1.png)
 
 
 5. Debug the JavaScript code running in Kontain unikernel `node.km` under Visual Studio just as you would debug JavaScript code with regular Node. 
