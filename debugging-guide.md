@@ -26,9 +26,9 @@ Kontain can be installed directly on the host or in a VM. For non-Linux environm
 
 Debugging unikernels _can be_ a complex task, and the lack of GDB/IDE debugging is often cited as a shortcoming of the unikernel approach. 
 
-Kontain supports _full GDB debugging_, including the use of GDB-based IDEs. For example, you can use Visual Studio Code debugger support to debug C++ code running as a Kontain unikernel. For interpreted languages, such as JS (in node.js) and Python, you can use native debuggers (e.g. `node --inspect` or `python -m pdb`) by connecting to the interpreter running as a unikernel. 
+Kontain supports _full GDB debugging_, including the use of GDB-based IDEs. For example, you can use Visual Studio Code debugger support to debug C++ code running as a Kontain unikernel. For interpreted languages, such as Javascript (in node.js) and Python, you can use native debuggers (e.g. `node --inspect` or `python -m pdb`) by connecting to the interpreter running as a unikernel. 
 
-The Kontain Monitor (KM) is responsible for creating a VM and running a workload unikernel in the VM. KM implements a built-in GDB server, so the GDB client is actually talking to KM, as shown in Figure 1. KM fully controls execution of the workload--starting, stopping, memory inspection, breakpoints, etc.--and it provides workload in-VM information to the GDB client.
+The Kontain Monitor (KM) is responsible for creating a VM and running a workload unikernel in the VM. KM implements a built-in GDB server, so the GDB client is actually talking to KM, as shown in Figure 1. KM fully controls execution of the workload—starting, stopping, memory inspection, breakpoints, etc.—and it provides workload in-VM information to the GDB client.
 
 ![Kontain GDB Server](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image3.png)
 
@@ -40,7 +40,7 @@ For more information about the GDB commands referenced in this document, see: �
 
 For information about using Visual Studio Code using C++. see: “[Get Started with C++ on Linux](https://code.visualstudio.com/docs/cpp/config-linux)”
 
-For information about the Kontain commands referenced in this document, type:  \
+For information about the Kontain commands referenced in this document, type: 
 “`/opt/kontain/bin/km --help`”
 
 
@@ -168,14 +168,14 @@ Add the following debug configuration to `launch.json`:
 
 
 ![VSC Run and Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image7.png)
-
+\
 
 
 3. Now you can start a full investigation of the core dump in the visual debugger. Note that all threads, variables, etc. are visible, and that all debugger features are available. (When you’re ready, stop the core dump investigation and proceed to the next example.)
 
 
 ![VSC Investigate Core Dump](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image14.png)
-
+\
 
 
 ### Live Debugging in VS Code
