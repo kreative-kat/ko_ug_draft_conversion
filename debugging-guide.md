@@ -115,7 +115,7 @@ NOTE: We are using Kontain’s GCCwrapper for the linking operation.
 ![VSC Run Build Task](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image12.png)
 
 
-The unikernel is built and placed in the file debug_core.km. It can now be run in Kontain VM.
+The unikernel is built and placed in the file `debug_core.km`. It can now be run in Kontain VM.
 
 
 ### Run the Application
@@ -126,7 +126,7 @@ From a command line, run the unikernel you just created by typing “`km debug_c
 
 Note: Since we are not interested in program output for this demo, redirect to `/dev/null`:
 
-![Redirect to dev null](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image4.png "image_tooltip")
+![Redirect to dev null](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image4.png)
 
 ### Analyze the Core Dump
 
@@ -166,7 +166,6 @@ Add the following debug configuration to `launch.json`:
 
 2. Start a debugging session in VS Code. Select "(core) Kontain workload core dump"` `in the **Run and Debug** dropdown, then select the **Run** icon (green triangle) or use `Ctrl+Shift+D`):
 
- \
 
 ![VSC Run and Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image7.png)
 
