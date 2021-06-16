@@ -69,10 +69,7 @@ In the VS Code editor,
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![VSC Workspace with Kontain example](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image13.png)
 
 
 
@@ -112,19 +109,10 @@ NOTE: We are using Kontain’s GCCwrapper for the linking operation.
 
 
 
-2. With the `debug_core.cpp` file open in the Visual Studio editor, run the new build task “Kontain C/C++: build active file” using the **Run Build Task** command (`Ctrl+Shift+B`). You will see the compile command in the **Terminal** window:
+2. With the `debug_core.cpp` file open in the Visual Studio editor, run the newly created `Kontain C/C++: build active file` task using the **Run Build Task** command (`Ctrl+Shift+B`). You will see the command running in the **Terminal** window:
 
 
-```
-
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-```
+![VSC Run Build Task](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image12.png)
 
 
 The unikernel is built and placed in the file debug_core.km. It can now be run in Kontain VM.
@@ -134,12 +122,11 @@ The unikernel is built and placed in the file debug_core.km. It can now be run i
 
 For this debugging demonstration, we will run the application and generate a core dump. 
 
-From a command line, run the fresh unikernel by typing “`km debug_core.km`”. Since we’ve added “`raise(SIGABRT);`” to the source code, the workload will crash and generate a `kmcore` file. 
+From a command line, run the unikernel you just created by typing “`km debug_core.km`”. Since we’ve added “`raise(SIGABRT);`” to the source code, the workload will crash and generate a `kmcore` file. 
 
 Note: Since we are not interested in program output for this demo, redirect to `/dev/null`:
 
 ![Redirect to dev null](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image4.png "image_tooltip")
-
 
 ### Analyze the Core Dump
 
@@ -177,27 +164,18 @@ Add the following debug configuration to `launch.json`:
 
 
 
-2. Start a debugging session in VS Code. Select "(core) Kontain workload core dump"` `in the **Debug **dropdown, then select the **Run **icon (green triangle) or use `Ctrl+Shift+D`):
+2. Start a debugging session in VS Code. Select "(core) Kontain workload core dump"` `in the **Run and Debug** dropdown, then select the **Run** icon (green triangle) or use `Ctrl+Shift+D`):
 
  \
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
+![VSC Run and Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image7.png)
 
 
 
 3. Now you can start a full investigation of the core dump in the visual debugger. Note that all threads, variables, etc. are visible, and that all debugger features are available. (When you’re ready, stop the core dump investigation and proceed to the next example.)
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
+![VSC Investigate Core Dump](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image14.png)
 
 
 
@@ -258,22 +236,14 @@ Note that we are using the C++ program from the previous example.
 
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+![VSC Live Debug Unikernel](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image8.png)
 
 
 
-
-3. Although you are now debugging a unikernel running in Kontain VM, the debugging experience in VS Code is the same as for any other C++ program. For example, we can add a breakpoint, then select **Continue **(**F5**):
-
+3. Although you are debugging a unikernel running in Kontain VM, the debugging experience in VS Code is the same as for any other C++ program. For example, we can add a breakpoint, then select **Continue** (**F5**):
 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
+![VSC Interactive Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image6.png)
 
 
 
