@@ -624,7 +624,7 @@ CMD ["npm", "start"]
 
 2. Add Kontain Build and Run Tasks 
 
-    We are adding d`ocker-kbuild` and `docker-krun` to the `tasks.json` file:
+    We are adding `docker-kbuild` and `docker-krun` to the `tasks.json` file:
 
 
 
