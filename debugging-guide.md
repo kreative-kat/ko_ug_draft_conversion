@@ -31,6 +31,7 @@ Kontain supports _full GDB debugging_, including the use of GDB-based IDEs. For 
 The Kontain Monitor (KM) is responsible for creating a VM and running a workload unikernel in the VM. KM implements a built-in GDB server, so the GDB client is actually talking to KM, as shown in Figure 1. KM fully controls execution of the workload--starting, stopping, memory inspection, breakpoints, etc.--and it provides workload in-VM information to the GDB client.
 
 ![Kontain GDB Server](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image3.png)
+
 Figure 1. Kontain’s Built-In GDB Server Supports Full GDB Debugging
 
 In this document, we provide examples of debugging an application running in Kontain VM, as well as analyzing core dumps produced by the application.
