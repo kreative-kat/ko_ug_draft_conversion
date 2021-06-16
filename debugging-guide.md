@@ -6,8 +6,6 @@
 
 This document provides information for developers about how to debug a Kontain workload (unikernel) using standard debugging tools and practices.  
 
-Reference [Kontain release](https://github.com/kontainapp/km-releases): Beta release
-
 
 ## About Kontain
 
