@@ -52,7 +52,7 @@ We are using the [C++ code (.cpp file) provided in the Appendix ][3], which incl
 
 
 
-*   Kontain is installed using the [pre-configured Vagrant box](https://docs.google.com/document/d/1wNPGmGdjOTvaOjj8h1GbVAJ-naBKO5zsyeOEFUpapNQ/edit#heading=h.un2xhhsp9ns).
+*   Kontain is installed using the _[pre-configured Vagrant box](https://app.vagrantup.com/kontain/boxes/ubuntu-kkm-beta3)_.
 *   Visual Studio Code (VSC) _[with Microsoft C/C++ extension](https://code.visualstudio.com/docs/languages/cpp)_
 
 ** \
