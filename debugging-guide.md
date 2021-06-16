@@ -2,11 +2,11 @@
 ## Debugging Kontain Unikernels
 
 
-## About This Document {#about-this-document}
+## About This Document
 
 This document provides information for developers about how to debug a Kontain workload (unikernel) using standard debugging tools and practices.  
 
-Reference [Kontain release](https://github.com/kontainapp/km-releases): v0.1-beta2
+Reference [Kontain release](https://github.com/kontainapp/km-releases): Beta release
 
 
 ## About Kontain {#about-kontain}
@@ -889,3 +889,4 @@ var server = http.createServer(function(request, response) {
 });
 console.log('listening on port ', port)
 server.listen(port);
+
