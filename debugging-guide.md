@@ -168,14 +168,14 @@ Add the following debug configuration to `launch.json`:
 
 
 ![VSC Run and Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image7.png)
-\
+
 
 
 3. Now you can start a full investigation of the core dump in the visual debugger. Note that all threads, variables, etc. are visible, and that all debugger features are available. (When you’re ready, stop the core dump investigation and proceed to the next example.)
 
 
 ![VSC Investigate Core Dump](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image14.png)
-\
+
 
 
 ### Live Debugging in VS Code
