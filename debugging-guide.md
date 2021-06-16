@@ -52,18 +52,17 @@ We are using the [C++ code (.cpp file) provided in the Appendix ][3], which incl
 
 
 
-*   Kontain is installed using the _[pre-configured Vagrant box](https://app.vagrantup.com/kontain/boxes/ubuntu-kkm-beta3)_.
+*   Kontain is installed using the _[pre-configured Kontain Vagrant box](https://app.vagrantup.com/kontain/boxes/ubuntu-kkm-beta3)_.
 *   Visual Studio Code (VSC) _[with Microsoft C/C++ extension](https://code.visualstudio.com/docs/languages/cpp)_
 
-** \
-Setup: **
+**Setup:**
 
 In the VS Code editor,
 
 
 
 1. Create a folder for Kontain debugging and `cd` to that folder. 
-2. Create a file named “`debug_core.cpp"` using the [code in the appendix](#c-example-code). 
+2. Create a file named “`debug_core.cpp"` using the [code in the appendix][4]. 
 3. Add the folder to VS Workspace and save the workspace.
 
 
@@ -75,7 +74,7 @@ In the VS Code editor,
 
 
 
-### Build the Application {#build-the-application}
+### Build the Application
 
 You can use a _[VS Code Task](https://code.visualstudio.com/docs/editor/tasks)_ to build a Kontain unikernel (`.km` file) from unmodified C++ code, just as you would use a Task to build any other C++ program. 
 
@@ -111,7 +110,7 @@ NOTE: We are using Kontain’s GCCwrapper for the linking operation.
 
 
 
-2. With the `debug_core.cpp` file open in the Visual Studio editor, run the new build task “Kontain C/C++: build active file” using the **Run Build Task** command (`Ctrl+Shift+B`). You will see the compile command in the **Terminal **window:
+2. With the `debug_core.cpp` file open in the Visual Studio editor, run the new build task “Kontain C/C++: build active file” using the **Run Build Task** command (`Ctrl+Shift+B`). You will see the compile command in the **Terminal** window:
 
 
 ```
@@ -129,7 +128,7 @@ NOTE: We are using Kontain’s GCCwrapper for the linking operation.
 The unikernel is built and placed in the file debug_core.km. It can now be run in Kontain VM.
 
 
-### Run the Application  {#run-the-application}
+### Run the Application
 
 For this debugging demonstration, we will run the application and generate a core dump. 
 
@@ -146,7 +145,7 @@ Note: Since we are not interested in program output for this demo, redirect to` 
 
 
 
-### Analyze the Core Dump {#analyze-the-core-dump}
+### Analyze the Core Dump
 
 Analyze the core dump using the `kmcore` file and [Visual Studio Code debugging support for C/C++.](https://code.visualstudio.com/docs/cpp/cpp-debug) 
 
@@ -206,7 +205,7 @@ Add the following debug configuration to `launch.json`:
 
 
 
-### Live Debugging in VS Code {#live-debugging-in-vs-code}
+### Live Debugging in VS Code
 
 In this example, we will use VS Code to debug a workload running live as a Kontain unikernel in a Kontain VM. Kontain Monitor (KM) controls execution of the workload and provides workload-in-VM information to VS Code (the GDB client). But the debugging experience is the same as for any other C++ program.
 
@@ -285,7 +284,7 @@ Note that we are using the C++ program from the previous example.
 ## 
 
 
-## About Live Debugging from the Command Line {#about-live-debugging-from-the-command-line}
+## About Live Debugging from the Command Line
 
 To attach a standard GDB client to a Kontain workload, you need to instruct the Kontain Monitor GDB server to listen for a client connection. 
 
@@ -310,7 +309,7 @@ For information about Kontain commands go to:  \
 
 
 ### 
-Example: Debugging a Workload with KM GDB {#example-debugging-a-workload-with-km-gdb}
+Example: Debugging a Workload with KM GDB
 
 
 
@@ -351,11 +350,11 @@ Reading symbols from target:/home/someone/ws/ws2/km/tests/hello_test.km...
 
 
 
-### **Restarting a Unikernel Debuggee ** {#restarting-a-unikernel-debuggee}
+### **Restarting a Unikernel Debuggee**
 
 Developers often need to restart a debugee program from the beginning while preserving the breakpoints, variables, and other status in the client. In GDB, this is done using the ‘`run`’ command. To achieve the same results when debugging with Kontain GDB, follow the procedure below. 
 
-**Procedure: **
+**Procedure:**
 
 
 
@@ -365,7 +364,7 @@ Developers often need to restart a debugee program from the beginning while pres
 4. Run the debuggee using the `continue `command. 
 
 
-### Debugging Child Processes and `exec` Workloads {#debugging-child-processes-and-exec-workloads}
+### Debugging Child Processes and `exec` Workloads
 
 GDB follow-fork-mode cannot be used to follow the child process after a fork. This is because, when a Kontain workload forks, it inherits debug settings from the forking process, e.g.,
 
@@ -412,10 +411,10 @@ gdb -q --ex="target remote localhost:2160"
 When a workload process exec()s, the GDB `catch exec` command will allow the GDB client to gain control after the `exec` call successfully completes.
 
 
-## Debugging Interpreted Languages (Python, JavaScript) {#debugging-interpreted-languages-python-javascript}
+## Debugging Interpreted Languages (Python, JavaScript)
 
 
-### Running Unmodified Scripts {#running-unmodified-scripts}
+### Running Unmodified Scripts
 
 There is no need to modify your scripts, but it’s useful to understand how Kontain supports scripts. 
 
@@ -431,12 +430,12 @@ For example, if you set the following file structure:
 Then running “`python my-code.py`” will actually run `my-code.py` in a Python unikernel in a Kontain VM, and the command line formed internally by KM will be “`km python.km my-code.py`” 
 
 
-### Debug Servers {#debug-servers}
+### Debug Servers
 
 Interpreted languages usually have a debugging server in the interpreter and/or use native debugging protocol over a dedicated network port. Therefore, having the port available to the workload is usually sufficient for debugging.
 
 
-### Python Example {#python-example}
+### Python Example
 
 You can debug Python code using Visual Studio Code or directly with the ``debugpy`` module. There are two requirements:
 
@@ -481,7 +480,7 @@ You can debug Python code using Visual Studio Code or directly with the ``debugp
  
 
 
-### Javascript (node.js) Example {#javascript-node-js-example}
+### Javascript (node.js) Example
 
 Kontain supports regular debugging. In this example, we demonstrate a Node debugger attached to running Javascript code (started with `--inspect` flag). 
 
@@ -503,14 +502,14 @@ Kontain supports regular debugging. In this example, we demonstrate a Node debug
 
 
 
-## Debugging Golang {#debugging-golang}
+## Debugging Golang
 
 Currently, Kontain Golang unikernels can only be debugged with GDB, and [GDB support for Golang is weak](https://golang.org/doc/gdb). As a workaround, you can debug Go code natively on your platform, then run the debugged code as a unikernel by passing the file name to the `km `command.
 
 NOTE: Kontain only supports GOLANG built with `CGO_ENABLED=0`. We are working to resolve known issues with `CGO_ENABLED=1`.
 
 
-## Debugging on Mac and Windows  {#debugging-on-mac-and-windows}
+## Debugging on Mac and Windows
 
 In this example debugging session, we’ll use Visual Studio Code to edit and debug the provided [example C++ code](#c-example-code) running in a Kontain VM.  
 
@@ -570,7 +569,7 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
 
 
-## Debugging a Kontainer with Docker {#debugging-a-kontainer-with-docker}
+## Debugging a Kontainer with Docker
 
 In this example, we’re going to debug a Node Express application in a “kontainer” under Visual Studio Code. 
 
@@ -714,10 +713,10 @@ CMD ["npm", "start"]
 
 
 
-## Appendix:  Source Code {#appendix-source-code}
+## Appendix:  Source Code
 
 
-### C++ Example Code {#c-example-code}
+### C++ Example Code
 
 This is a very simple program from Kontain’s test set; it checks for the TLS constructors/destructors sequence. For the debugging demonstration, “`raise(SIGABRT);`” has been added to generate a core dump.
 
@@ -871,8 +870,7 @@ int main()
 
 
 
-### Node.js Example Code {#node-js-example-code}
-
+### Node.js Example Code
 
 ```
 var port = 8080;
@@ -893,3 +891,4 @@ server.listen(port);
 [1]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#getting-started-using-kontains-pre-configured-linux-vm>
 [2]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#kontain-user-guide>
 [3]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/debugging-guide.md#appendix-source-code>
+[4]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/debugging-guide.md#c-example-code>
