@@ -81,7 +81,7 @@ You can use a _[VS Code Task](https://code.visualstudio.com/docs/editor/tasks)_ 
 
 1. Add a VS Code Task to automate the program build. This build task will be called “Kontain C/C++: build active file”, and it will instruct VS Code to link the object files with the Kontain runtime library to create a Kontain unikernel. The output will be called `debug_core.km`
 
-NOTE: We are using Kontain’s GCCwrapper for the linking operation. 
+NOTE: We are using Kontain’s GCC wrapper for the linking operation. 
 
 
     Use **Terminal > ConfigureTask** or add the following code to your `tasks.json` file: 
@@ -255,9 +255,9 @@ To attach a standard GDB client to a Kontain workload, you need to instruct the 
 
 The following flags control Kontain Monitor activation of the internal GDB server:
 
-`-g[port] - `Starts the gdbserver, but instructs it to stop before the workload entry point and wait for the GDB client to connect; the default port is 2159
+`-g[port]` - Starts the gdbserver, but instructs it to stop before the workload entry point and wait for the GDB client to connect; the default port is 2159
 
-`--gdb_listen `The workload is allowed to run right away, but the KM GDB server will wait in the background for a GDB client connection
+`--gdb_listen` - The workload is allowed to run right away, but the KM GDB server will wait in the background for a GDB client connection
 
 You can connect to the GDB server, disconnect, and reconnect as often as you wish until the workload completes. When you connect to the KM GDB server, all workload threads will be paused until the GDB client starts them using the `cont`, `step`, or `next` command.
 
