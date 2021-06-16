@@ -136,15 +136,14 @@ For this debugging demonstration, we will run the application and generate a cor
 
 From a command line, run the fresh unikernel by typing “`km debug_core.km`”. Since we’ve added “`raise(SIGABRT);`” to the source code, the workload will crash and generate a `kmcore` file. 
 
-Note: Since we are not interested in program output for this demo, redirect to` /dev/null`:
+Note: Since we are not interested in program output for this demo, redirect to `/dev/null`:
 
 
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.png "image_tooltip")
-
+![Redirect to dev null](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image4.png "image_tooltip")
 
 
 ### Analyze the Core Dump
