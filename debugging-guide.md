@@ -698,9 +698,7 @@ CMD ["npm", "start"]
 <p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image13.png "image_tooltip")
-
-
+![Kontain Node.js launch](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image1.png)
 
 
 5. Debug the JavaScript code running in Kontain unikernel `node.km` under Visual Studio just as you would debug JavaScript code with regular Node. 
