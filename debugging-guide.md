@@ -9,7 +9,7 @@ This document provides information for developers about how to debug a Kontain w
 Reference [Kontain release](https://github.com/kontainapp/km-releases): Beta release
 
 
-## About Kontain {#about-kontain}
+## About Kontain
 
 Kontain is a tool for running individual programs wrapped in unikernels, directly on dedicated, lightweight Kontain VMs. 
 
@@ -19,14 +19,14 @@ Kontain requires no change to source or object files: a Kontain unikernel can be
 
 For interpreted and bytecode-interpreted languages (e.g. Java, Python), a unikernel language runtime is created, then the interpreted/bytecode language is run inside the unikernel.
 
-Kontain can be installed directly on the host or in a VM. For non-Linux environments, we provide a Vagrant box based on Ubuntu 20. The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation. For more information, see “[Getting Started: Using Kontain's Pre-Configured Linux VM][1]” in the Kontain User Guide. 
+Kontain can be installed directly on the host or in a VM. For non-Linux environments, we provide a Vagrant box based on Ubuntu 20. The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation. For more information, see “[Getting Started: Using Kontain's Pre-Configured Linux VM][1]” in the [Kontain User Guide][2]. 
 
 
-## Kontain Debugging Basics {#kontain-debugging-basics}
+## Kontain Debugging Basics
 
 Debugging unikernels _can be_ a complex task, and the lack of GDB/IDE debugging is often cited as a shortcoming of the unikernel approach. 
 
-Kontain supports _full GDB debugging_, including the use of GDB-based IDEs. For example, you can use Visual Studio Code debugger support to debug C++ code running as a Kontain unikernel. For interpreted languages, such as JS (in node.js) and Python, you can use native debuggers (e.g. node --inspect or python -m pdb) by connecting to the interpreter running as a unikernel. 
+Kontain supports _full GDB debugging_, including the use of GDB-based IDEs. For example, you can use Visual Studio Code debugger support to debug C++ code running as a Kontain unikernel. For interpreted languages, such as JS (in node.js) and Python, you can use native debuggers (e.g. `node --inspect` or `python -m pdb`) by connecting to the interpreter running as a unikernel. 
 
 The Kontain Monitor (KM) is responsible for creating a VM and running a workload unikernel in the VM. KM implements a built-in GDB server, so the GDB client is actually talking to KM, as shown in Figure 1. KM fully controls execution of the workload--starting, stopping, memory inspection, breakpoints, etc.--and it provides workload in-VM information to the GDB client.
 
@@ -891,3 +891,4 @@ console.log('listening on port ', port)
 server.listen(port);
 ```
 [1]: <https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#getting-started-using-kontains-pre-configured-linux-vm>
+[2]: ,https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/user-guide.md#kontain-user-guide.
