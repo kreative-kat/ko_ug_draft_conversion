@@ -444,7 +444,7 @@ Kontain supports Node.js debugging. In this example, we demonstrate a Node debug
 
 
 *   Kontain virtualization module (KKM). (We recommend that you use the prepared Ubuntu VM available from Vagrant Cloud, which includes KKM.) 
-*   A small http server: “`Hello from Node.js" `([code provided in the Appendix)](#node-js-example-code).
+*   A small http server: “`Hello from Node.js" `([code provided in the Appendix)](#nodejs-example-code).
 *   Visual Studio “**Attach**” debug config, provided by Node support bundled in VS Code.
 *   `curl localhost:8080`
 
