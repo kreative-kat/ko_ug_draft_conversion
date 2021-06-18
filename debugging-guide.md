@@ -42,7 +42,7 @@ For information about the Kontain commands referenced in this document, type:
 “`/opt/kontain/bin/km --help`”
 
 
-## Debugging C/C++ using VS Code {#debugging-c-c-using-vs-code}
+## Debugging C/C++ using VS Code
 
 This is a step-by-step demonstration of how to build, run, and debug C or C++ code as a unikernel running in a Kontain VM, using Visual Studio Code. 
 
