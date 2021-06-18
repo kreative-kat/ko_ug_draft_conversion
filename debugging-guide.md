@@ -62,12 +62,12 @@ In the VS Code editor,
 
 
 1. Create a folder for Kontain debugging and `cd` to that folder. 
-2. Create a file named “`debug_core.cpp"` using the [code in the appendix][4]. 
+2. Create a file named “`debug_core.cpp"` using the [code in the appendix](#c-example-code). 
 3. Add the folder to VS Workspace and save the workspace.
 
 
 
-![VSC Workspace with Kontain example](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image13.png)
+![VSC Workspace with Kontain example](images/image13.png)
 
 
 
