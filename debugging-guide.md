@@ -162,7 +162,7 @@ Add the following debug configuration to `launch.json`:
 
 
 
-2. Start a debugging session in VS Code. Select "(core) Kontain workload core dump"` `in the **Run and Debug** dropdown, then select the **Run** icon (green triangle) or use `Ctrl+Shift+D`):
+2. Start a debugging session in VS Code. Select "`(core) Kontain workload core dump`" in the **Run and Debug** dropdown, then select the **Run** icon (green triangle) or use `Ctrl+Shift+D`):
 
 
 ![VSC Run and Debug](images/image7.png)
@@ -268,11 +268,11 @@ This instruction can be used at each debugging session, or you can add it to the
 For information about Kontain commands go to:  \
 `/opt/kontain/bin/km --help`
 
-*Known Limitation:* GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads]().”
+*Known Limitation:* GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads](#debugging-child-processes-and-exec-workloads).”
 
 
 ### 
-Example: Debugging a Workload with KM GDB
+**EXAMPLE: Debugging a Workload with KM GDB**
 
 
 
@@ -424,7 +424,7 @@ You can debug Python code using Visual Studio Code or directly with the ``debugp
 
 
 
-![VSC Python unikernel run and debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image11.png)
+![VSC Python unikernel run and debug](images/image11.png)
 
 
 
@@ -432,7 +432,7 @@ You can debug Python code using Visual Studio Code or directly with the ``debugp
 2. Now you can visually debug Python code as a Python unikernel in Kontain VM, and the debugging experience will be the same as for any other Python program: 
 
  
-![VSC Python unikernel debugging investigation](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image10.png)
+![VSC Python unikernel debugging investigation](images/image10.png)
 
 
 ### Javascript (node.js) Example
@@ -449,7 +449,7 @@ Kontain supports Node.js debugging. In this example, we demonstrate a Node debug
 *   `curl localhost:8080`
 
 
-![VSC Node.js debugging](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image5.png)
+![VSC Node.js debugging](images/image5.png)
 
 
 ## Debugging Golang
@@ -466,9 +466,9 @@ In this example debugging session, we’ll use Visual Studio Code to edit and de
 
 
 
-1. Kontain installed using the provisioned Vagrant box (Ubuntu VM). Installation instructions are provided here: [kontainapp/km-releases](https://github.com/kontainapp/km-releases#install-use-a-pre-configured-vm-with-all-components-pre-installed)
+1. Kontain installed using the provisioned Vagrant box (Ubuntu VM). Installation instructions are provided here: [kontainapp/km](https://github.com/kontainapp/km-releases#install-use-a-pre-configured-vm-with-all-components-pre-installed)
 
-    NOTE: Kontain’s Vagrant box is provided for virtualbox only. If you want to use Hyper-V, please open an issue on [https://github.com/kontainapp/km-releases](https://github.com/kontainapp/km-releases) 
+    NOTE: Kontain’s Vagrant box is provided for virtualbox only. If you want to use Hyper-V, please open an issue on [https://github.com/kontainapp/km](https://github.com/kontainapp/km-releases) 
 
 2. Visual Studio Code installed _with the [Remote Development extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)_.
 3. Ensure that GCC is installed on the VM where Kontain is installed. Run `sudo apt-get install g++` on the VM (in the VS Code terminal). NOTE: This is part of VS Code setup; for more information, see “[C++ programming with Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp#_tutorials).”
@@ -491,7 +491,7 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
 2. Connect VS Code to the VM where Kontain is installed:  
 
-![VSC Remote Connect to Kontain VM](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image2.png)
+![VSC Remote Connect to Kontain VM](images/image2.png)
 
 3. Add the example [.cpp file from the Appendix](#c-example-code) to the editor and save it.
 4. Add the folder to VS Workspace and save it.
@@ -506,7 +506,7 @@ vagrant ssh-config --host kontain >>  ~/.ssh/config
 
  
 
-![VSC unikernel run and debug WindowsMac](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image9.png)
+![VSC unikernel run and debug WindowsMac](images/image9.png)
 
 
 
@@ -638,7 +638,7 @@ CMD ["npm", "start"]
 
 4. Select “Kontain Node.js launch” in the **Run and Debug** menu to rebuild the kontainer (using the pre-built container image with the node unikernel) and run it with `--inspect` flags. 
 
-![VSC Kontainer run and debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image1.png)
+![VSC Kontainer run and debug](images/image1.png)
 
 
 5. Debug the JavaScript code running in Kontain unikernel `node.km` under Visual Studio just as you would debug JavaScript code with regular Node. 
