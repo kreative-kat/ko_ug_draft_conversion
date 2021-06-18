@@ -110,7 +110,7 @@ NOTE: We are using Kontain’s GCC wrapper for the linking operation.
 2. With the `debug_core.cpp` file open in the Visual Studio editor, run the newly created `Kontain C/C++: build active file` task using the **Run Build Task** command (`Ctrl+Shift+B`). You will see the command running in the **Terminal** window:
 
 
-![VSC Run Build Task](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image12.png)
+![VSC Run Build Task](images/image12.png)
 
 
 The unikernel is built and placed in the file `debug_core.km`. It can now be run in Kontain VM.
@@ -124,7 +124,7 @@ From a command line, run the unikernel you just created by typing “`km debug_c
 
 Note: Since we are not interested in program output for this demo, redirect to `/dev/null`:
 
-![Redirect to dev null](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image4.png)
+![Redirect to dev null](images/image4.png)
 
 ### Analyze the Core Dump
 
@@ -165,14 +165,14 @@ Add the following debug configuration to `launch.json`:
 2. Start a debugging session in VS Code. Select "(core) Kontain workload core dump"` `in the **Run and Debug** dropdown, then select the **Run** icon (green triangle) or use `Ctrl+Shift+D`):
 
 
-![VSC Run and Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image7.png)
+![VSC Run and Debug](images/image7.png)
 
 
 
 3. Now you can start a full investigation of the core dump in the visual debugger. Note that all threads, variables, etc. are visible, and that all debugger features are available. (When you’re ready, stop the core dump investigation and proceed to the next example.)
 
 
-![VSC Investigate Core Dump](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image14.png)
+![VSC Investigate Core Dump](images/image14.png)
 
 
 
@@ -233,14 +233,14 @@ Note that we are using the C++ program from the previous example.
 
 
 
-![VSC Live Debug Unikernel](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image8.png)
+![VSC Live Debug Unikernel](images/image8.png)
 
 
 
 3. Although you are debugging a unikernel running in Kontain VM, the debugging experience in VS Code is the same as for any other C++ program. For example, we can add a breakpoint, then select **Continue** (**F5**):
 
 
-![VSC Interactive Debug](https://github.com/kontainapp/km/blob/kreative-kat/docs/docs/images/image6.png)
+![VSC Interactive Debug](images/image6.png)
 
 
 
@@ -268,7 +268,7 @@ This instruction can be used at each debugging session, or you can add it to the
 For information about Kontain commands go to:  \
 `/opt/kontain/bin/km --help`
 
-<span style="text-decoration:underline;">Known Limitation</span>: GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads]().”
+*Known Limitation:* GDB follow-fork-mode cannot be used to follow the child process after a fork. To enable debugging of a child process, you can add a variable to the parent KM environment. For more information, see “[Debugging Child Processes and exec Workloads]().”
 
 
 ### 
