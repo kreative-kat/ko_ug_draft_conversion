@@ -46,7 +46,7 @@ For information about the Kontain commands referenced in this document, type:
 
 This is a step-by-step demonstration of how to build, run, and debug C or C++ code as a unikernel running in a Kontain VM, using Visual Studio Code. 
 
-We are using the [C++ code (.cpp file) provided in the Appendix ][3], which includes “`raise(SIGABRT);`” to generate a code dump for the purpose of this demo. 
+We are using the [C++ code (.cpp file) provided in the Appendix ](#c-example-code), which includes “`raise(SIGABRT);`” to generate a code dump for the purpose of this demo. 
 
 **Prerequisites:**
 
