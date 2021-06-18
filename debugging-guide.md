@@ -17,7 +17,7 @@ Kontain requires no change to source or object files: a Kontain unikernel can be
 
 For interpreted and bytecode-interpreted languages (e.g. Java, Python), a unikernel language runtime is created, then the interpreted/bytecode language is run inside the unikernel.
 
-Kontain can be installed directly on the host or in a VM. For non-Linux environments, we provide a Vagrant box based on Ubuntu 20. The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation. For more information, see “[Getting Started: Using Kontain's Pre-Configured Linux VM])(user-guide.md#getting-started-using-kontains-pre-configured-linux-vm)” in the [*Kontain User Guide*](user-guide.md). 
+Kontain can be installed directly on the host or in a VM. For non-Linux environments, we provide a Vagrant box based on Ubuntu 20. The Vagrant VM brings fully functional Kontain onto your desktop or laptop and provides a stable platform for exploration and validation. For more information, see “[Getting Started: Using Kontain's Pre-Configured Linux VM](user-guide.md#getting-started-using-kontains-pre-configured-linux-vm)” in the [*Kontain User Guide*](user-guide.md). 
 
 
 ## Kontain Debugging Basics
